@@ -33,6 +33,12 @@ def test_metric(metric, expected_total):
         'userTeamId': 'team1'
     }
     
+    # Enable logging
+    import logging
+    logging.basicConfig(level=logging.DEBUG)
+    logging.getLogger('socketio').setLevel(logging.DEBUG)
+    logging.getLogger('engineio').setLevel(logging.DEBUG)
+
     sio = socketio.Client()
     
     room_created = {}
@@ -42,7 +48,12 @@ def test_metric(metric, expected_total):
         room_created['id'] = data['id'] # room_dict has 'id'
         print(f"Room created/joined: {data['id']}")
 
-    sio.connect(SIO_URL)
+    try:
+        sio.connect(SIO_URL, transports=['polling'])
+    except Exception as e:
+        print(f"Connection failed: {e}")
+        return False
+
     print("Socket connected")
     time.sleep(1) # Wait for connection to stabilize
     sio.emit('create_room', room_data)
@@ -64,13 +75,7 @@ def test_metric(metric, expected_total):
     sio.emit('start_auction', {'roomId': room_id})
     time.sleep(1)
     
-    # 3. End Auction (Skip bidding, we just need the room in POST_AUCTION state)
-    # Actually, to submit a squad, the players technically don't need to be "bought" in this simplified backend 
-    # unless there's strict validation. Let's check app.py... 
-    # submit_squad just checks if players exist in all_players. It doesn't strictly check if the team owns them 
-    # (based on my previous read, but let's assume it's loose for now or we might need to simulate buying).
-    # Wait, submit_squad takes 'teamId' and 'playerIds'. 
-    # Let's try to end auction directly.
+    # 3. End Auction
     sio.emit('end_auction', {'roomId': room_id})
     time.sleep(2)
     
@@ -103,10 +108,10 @@ def test_metric(metric, expected_total):
     sio.disconnect()
     
     if actual_points == expected_total:
-        print("✅ SUCCESS")
+        print("SUCCESS")
         return True
     else:
-        print("❌ FAILURE")
+        print("FAILURE")
         return False
 
 if __name__ == "__main__":
@@ -114,8 +119,8 @@ if __name__ == "__main__":
     success_2024 = test_metric('2024', EXPECTED_TOTAL_2024)
     
     if success_2025 and success_2024:
-        print("\n🎉 ALL TESTS PASSED")
+        print("\nALL TESTS PASSED")
         sys.exit(0)
     else:
-        print("\n💥 SOME TESTS FAILED")
+        print("\nSOME TESTS FAILED")
         sys.exit(1)
