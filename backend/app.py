@@ -5,6 +5,7 @@ import random
 import string
 import os
 import json
+import logging
 from .auction_engine import AuctionEngine
 from .models import db, Room, User, TeamState
 from .points_calculator import calculate_team_points
