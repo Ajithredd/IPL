@@ -20,6 +20,12 @@ if database_url and database_url.startswith("postgres://"):
 app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+# Fix for Eventlet + SQLAlchemy locking issue
+from sqlalchemy.pool import NullPool
+app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
+    'poolclass': NullPool
+}
+
 # Handle CORS
 cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000').split(',')
 CORS(app, resources={r"/*": {"origins": cors_origins}})
