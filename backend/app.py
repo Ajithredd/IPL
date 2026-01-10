@@ -5,9 +5,9 @@ import random
 import string
 import os
 import json
-from auction_engine import AuctionEngine
-from models import db, Room, User, TeamState
-from points_calculator import calculate_team_points
+from .auction_engine import AuctionEngine
+from .models import db, Room, User, TeamState
+from .points_calculator import calculate_team_points
 
 connected_users = {} 
 room_post_auction_data = {} # { room_id: { team_id: { points: 0, squad: [] } } } 
