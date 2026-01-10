@@ -1,7 +1,7 @@
 import json
 import random
 import os
-from models import db, TeamState # Import models
+from .models import db, TeamState # Import models
 
 class AuctionEngine:
     def __init__(self, room_id, room_data, socketio, app):

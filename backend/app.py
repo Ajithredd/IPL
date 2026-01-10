@@ -9,6 +9,21 @@ from .auction_engine import AuctionEngine
 from .models import db, Room, User, TeamState
 from .points_calculator import calculate_team_points
 
+app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'secret!')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///auction.db')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# Handle CORS
+cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000').split(',')
+CORS(app, resources={r"/*": {"origins": cors_origins}})
+socketio = SocketIO(app, cors_allowed_origins=cors_origins, async_mode='eventlet')
+
+db.init_app(app)
+
+# Global dictionary to store active auction engines
+auction_engines = {}
+
 connected_users = {} 
 room_post_auction_data = {} # { room_id: { team_id: { points: 0, squad: [] } } } 
 
