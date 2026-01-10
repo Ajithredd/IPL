@@ -27,6 +27,9 @@ socketio = SocketIO(app, cors_allowed_origins=cors_origins, async_mode='eventlet
 
 db.init_app(app)
 
+with app.app_context():
+    db.create_all()
+
 # Global dictionary to store active auction engines
 auction_engines = {}
 
