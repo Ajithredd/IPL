@@ -1,0 +1,4922 @@
+[
+    {
+        "id": "p15",
+        "name": "Suryakumar Yadav",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3249,
+            "strike_rate": 143
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/108.png",
+        "fantasy_points": {
+            "overall": 2586,
+            "2024": 516,
+            "2025": 320.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p83",
+        "name": "Sai Sudharsan",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 478,
+            "wickets": 0,
+            "avg": 33.5,
+            "fours": 88,
+            "sixes": 21,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20592.png",
+        "fantasy_points": {
+            "overall": 2648,
+            "2024": 270,
+            "2025": 311.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p95",
+        "name": "Yashasvi Jaiswal",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 408,
+            "wickets": 0,
+            "avg": 26.4,
+            "fours": 60,
+            "sixes": 28,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/13538.png",
+        "fantasy_points": {
+            "overall": 2152,
+            "2024": 528,
+            "2025": 273.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p90",
+        "name": "Nicholas Pooran",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 420,
+            "wickets": 0,
+            "avg": 30.1,
+            "fours": 45,
+            "sixes": 40,
+            "matches": 14
+        },
+        "country": "WI",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1703.png",
+        "fantasy_points": {
+            "overall": 4884,
+            "2024": 763,
+            "2025": 272.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p29",
+        "name": "Sunil Narine",
+        "role": "All-Rounder",
+        "basePrice": 150,
+        "stats": {
+            "wickets": 12,
+            "economy": 6.7,
+            "ipl_runs": 214,
+            "fours": 25,
+            "sixes": 19,
+            "matches": 12
+        },
+        "country": "WI",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/203.png",
+        "fantasy_points": {
+            "overall": 3849,
+            "2024": 400,
+            "2025": 270.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p23",
+        "name": "Shreyas Iyer",
+        "role": "Batsman",
+        "basePrice": 150,
+        "stats": {
+            "ipl_runs": 406,
+            "avg": 31,
+            "fours": 43,
+            "sixes": 39,
+            "wickets": 0,
+            "matches": 17
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1563.png",
+        "fantasy_points": {
+            "overall": 1737,
+            "2024": 325,
+            "2025": 261.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p82",
+        "name": "Shubman Gill",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 392,
+            "wickets": 0,
+            "avg": 31.6,
+            "fours": 62,
+            "sixes": 24,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3761.png",
+        "fantasy_points": {
+            "overall": 4564,
+            "2024": 439,
+            "2025": 259.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p100",
+        "name": "Abhishek Sharma",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 352,
+            "wickets": 0,
+            "avg": 34.8,
+            "fours": 46,
+            "sixes": 28,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3760.png",
+        "fantasy_points": {
+            "overall": 3852,
+            "2024": 332,
+            "2025": 255.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p39",
+        "name": "Jamie Overton",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3461,
+            "wickets": 58,
+            "avg": 29.0
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22109.png",
+        "fantasy_points": {
+            "overall": 1438,
+            "2024": 677,
+            "2025": 245.6
+        },
+        "set": 1
+    },
+    {
+        "id": "p84",
+        "name": "Rahul Tewatia",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3013,
+            "wickets": 125,
+            "avg": 30.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1749.png",
+        "fantasy_points": {
+            "overall": 3613,
+            "2024": 257,
+            "2025": 243.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p1",
+        "name": "Virat Kohli",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 378,
+            "avg": 37.2,
+            "fours": 66,
+            "sixes": 19,
+            "wickets": 0,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/164.png",
+        "fantasy_points": {
+            "overall": 3516,
+            "2024": 442,
+            "2025": 242.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p20",
+        "name": "Jos Buttler",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 352,
+            "strike_rate": 148,
+            "fours": 52,
+            "sixes": 24,
+            "wickets": 0,
+            "matches": 14
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/509.png",
+        "fantasy_points": {
+            "overall": 2114,
+            "2024": 772,
+            "2025": 240.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p65",
+        "name": "Nuwan Thushara",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 129,
+            "wickets": 146,
+            "avg": 24.4
+        },
+        "country": "SL",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20700.png",
+        "fantasy_points": {
+            "overall": 4634,
+            "2024": 501,
+            "2025": 239.1
+        },
+        "set": 1
+    },
+    {
+        "id": "p44",
+        "name": "Arshin Kulkarni",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4949,
+            "wickets": 135,
+            "avg": 38.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20691.png",
+        "fantasy_points": {
+            "overall": 3965,
+            "2024": 792,
+            "2025": 236.9
+        },
+        "set": 1
+    },
+    {
+        "id": "p42",
+        "name": "Yudhvir Singh",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4932,
+            "wickets": 55,
+            "avg": 25.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/10842.png",
+        "fantasy_points": {
+            "overall": 1347,
+            "2024": 533,
+            "2025": 233.4
+        },
+        "set": 1
+    },
+    {
+        "id": "p70",
+        "name": "Abhinandan Singh",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 196,
+            "wickets": 128,
+            "avg": 32.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22136.png",
+        "fantasy_points": {
+            "overall": 2938,
+            "2024": 758,
+            "2025": 233.4
+        },
+        "set": 1
+    },
+    {
+        "id": "p71",
+        "name": "Mohit Rathee",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3751,
+            "wickets": 130,
+            "avg": 23.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 3348,
+            "2024": 415,
+            "2025": 232.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p48",
+        "name": "Rachin Ravindra",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3281,
+            "wickets": 38,
+            "avg": 22.7
+        },
+        "country": "NZ",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20684.png",
+        "fantasy_points": {
+            "overall": 2673,
+            "2024": 728,
+            "2025": 232.4
+        },
+        "set": 1
+    },
+    {
+        "id": "p31",
+        "name": "Venkatesh Iyer",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 2609,
+            "wickets": 130,
+            "avg": 37.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/8540.png",
+        "fantasy_points": {
+            "overall": 3064,
+            "2024": 621,
+            "2025": 230
+        },
+        "set": 1
+    },
+    {
+        "id": "p13",
+        "name": "Pat Cummins",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 16,
+            "economy": 8.0,
+            "ipl_runs": 66,
+            "fours": 6,
+            "sixes": 7,
+            "matches": 14
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/488.png",
+        "fantasy_points": {
+            "overall": 2708,
+            "2024": 736,
+            "2025": 226.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p10",
+        "name": "Ravindra Jadeja",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 160,
+            "wickets": 10,
+            "fours": 25,
+            "sixes": 10,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/9.png",
+        "fantasy_points": {
+            "overall": 2051,
+            "2024": 778,
+            "2025": 226.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p96",
+        "name": "Riyan Parag",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 270,
+            "wickets": 3,
+            "avg": 31.4,
+            "fours": 27,
+            "sixes": 27,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/4445.png",
+        "fantasy_points": {
+            "overall": 2648,
+            "2024": 614,
+            "2025": 224.0
+        },
+        "set": 1
+    },
+    {
+        "id": "p21",
+        "name": "Arshdeep Singh",
+        "role": "Bowler",
+        "basePrice": 100,
+        "stats": {
+            "wickets": 21,
+            "economy": 8.5,
+            "ipl_runs": 0,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 17
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/4698.png",
+        "fantasy_points": {
+            "overall": 3030,
+            "2024": 609,
+            "2025": 223.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p24",
+        "name": "Mohammed Shami",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 127,
+            "economy": 8.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/47.png",
+        "fantasy_points": {
+            "overall": 1012,
+            "2024": 501,
+            "2025": 219.8
+        },
+        "set": 1
+    },
+    {
+        "id": "p56",
+        "name": "Phil Salt",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 324,
+            "wickets": 0,
+            "avg": 27.3,
+            "fours": 48,
+            "sixes": 22,
+            "matches": 13
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5606.png",
+        "fantasy_points": {
+            "overall": 4770,
+            "2024": 409,
+            "2025": 219.5
+        },
+        "set": 1
+    },
+    {
+        "id": "p25",
+        "name": "Mohammed Siraj",
+        "role": "Bowler",
+        "basePrice": 150,
+        "stats": {
+            "wickets": 16,
+            "economy": 8.5,
+            "ipl_runs": 0,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3840.png",
+        "fantasy_points": {
+            "overall": 1167,
+            "2024": 795,
+            "2025": 219.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p4",
+        "name": "Hardik Pandya",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 144,
+            "wickets": 14,
+            "fours": 18,
+            "sixes": 12,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2740.png",
+        "fantasy_points": {
+            "overall": 1778,
+            "2024": 680,
+            "2025": 216.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p12",
+        "name": "Heinrich Klaasen",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "strike_rate": 170,
+            "avg": 40,
+            "ipl_runs": 318,
+            "fours": 42,
+            "sixes": 25,
+            "wickets": 0,
+            "matches": 14
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3869.png",
+        "fantasy_points": {
+            "overall": 2724,
+            "2024": 681,
+            "2025": 214.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p38",
+        "name": "Marco Jansen",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 36,
+            "wickets": 16,
+            "avg": 26.8,
+            "fours": 3,
+            "sixes": 4,
+            "matches": 14
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/17068.png",
+        "fantasy_points": {
+            "overall": 4927,
+            "2024": 600,
+            "2025": 213.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p47",
+        "name": "Rahul Tripathi",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 1407,
+            "wickets": 0,
+            "avg": 25.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3838.png",
+        "fantasy_points": {
+            "overall": 2698,
+            "2024": 787,
+            "2025": 210.2
+        },
+        "set": 2
+    },
+    {
+        "id": "p41",
+        "name": "Lungi Ngidi",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 8,
+            "wickets": 63,
+            "avg": 22.8
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 3170,
+            "2024": 573,
+            "2025": 209.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p69",
+        "name": "Swastik Chhikara",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 389,
+            "wickets": 0,
+            "avg": 21.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 3473,
+            "2024": 710,
+            "2025": 208.7
+        },
+        "set": 2
+    },
+    {
+        "id": "p17",
+        "name": "Trent Boult",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 22,
+            "economy": 8.2,
+            "ipl_runs": 0,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 16
+        },
+        "country": "NZ",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/969.png",
+        "fantasy_points": {
+            "overall": 2416,
+            "2024": 610,
+            "2025": 206.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p89",
+        "name": "Ramandeep Singh",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 1073,
+            "wickets": 58,
+            "avg": 31.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20595.png",
+        "fantasy_points": {
+            "overall": 3240,
+            "2024": 371,
+            "2025": 205.8
+        },
+        "set": 2
+    },
+    {
+        "id": "p62",
+        "name": "Swapnil Singh",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3292,
+            "wickets": 51,
+            "avg": 25.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3180.png",
+        "fantasy_points": {
+            "overall": 4994,
+            "2024": 584,
+            "2025": 205.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p79",
+        "name": "Axar Patel",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 182,
+            "wickets": 5,
+            "avg": 29.6,
+            "fours": 23,
+            "sixes": 15,
+            "matches": 12
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1113.png",
+        "fantasy_points": {
+            "overall": 2717,
+            "2024": 536,
+            "2025": 205.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p52",
+        "name": "Sam Curran",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 1427,
+            "wickets": 85,
+            "avg": 27.7
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2939.png",
+        "fantasy_points": {
+            "overall": 5000,
+            "2024": 329,
+            "2025": 204.8
+        },
+        "set": 2
+    },
+    {
+        "id": "p92",
+        "name": "Mayank Yadav",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 108,
+            "wickets": 67,
+            "avg": 22.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20585.png",
+        "fantasy_points": {
+            "overall": 2544,
+            "2024": 516,
+            "2025": 201.2
+        },
+        "set": 2
+    },
+    {
+        "id": "p58",
+        "name": "Josh Hazlewood",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 22,
+            "avg": 32.3,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 12
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/857.png",
+        "fantasy_points": {
+            "overall": 3789,
+            "2024": 786,
+            "2025": 199.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p34",
+        "name": "Bhuvneshwar Kumar",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4,
+            "wickets": 17,
+            "avg": 23.9,
+            "fours": 1,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/116.png",
+        "fantasy_points": {
+            "overall": 4824,
+            "2024": 412,
+            "2025": 199.0
+        },
+        "set": 2
+    },
+    {
+        "id": "p36",
+        "name": "Akash Deep",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 481,
+            "wickets": 10,
+            "avg": 20.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/14800.png",
+        "fantasy_points": {
+            "overall": 4625,
+            "2024": 648,
+            "2025": 198.9
+        },
+        "set": 2
+    },
+    {
+        "id": "p81",
+        "name": "Abhishek Porel",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3414,
+            "wickets": 54,
+            "avg": 20.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1514,
+            "2024": 695,
+            "2025": 198.6
+        },
+        "set": 2
+    },
+    {
+        "id": "p75",
+        "name": "Tilak Varma",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4906,
+            "wickets": 0,
+            "avg": 35.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20594.png",
+        "fantasy_points": {
+            "overall": 3693,
+            "2024": 217,
+            "2025": 196.3
+        },
+        "set": 2
+    },
+    {
+        "id": "p51",
+        "name": "Noor Ahmad",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 24,
+            "avg": 28.4,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "AFG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20590.png",
+        "fantasy_points": {
+            "overall": 2249,
+            "2024": 531,
+            "2025": 196.0
+        },
+        "set": 2
+    },
+    {
+        "id": "p3",
+        "name": "Jasprit Bumrah",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 18,
+            "economy": 7.4,
+            "ipl_runs": 0,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 12
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1124.png",
+        "fantasy_points": {
+            "overall": 2152,
+            "2024": 769,
+            "2025": 196.0
+        },
+        "set": 2
+    },
+    {
+        "id": "p97",
+        "name": "Sandeep Sharma",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 140,
+            "wickets": 136,
+            "avg": 30.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1112.png",
+        "fantasy_points": {
+            "overall": 4500,
+            "2024": 211,
+            "2025": 195.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p88",
+        "name": "Harshit Rana",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 38,
+            "wickets": 15,
+            "avg": 22.1,
+            "fours": 5,
+            "sixes": 3,
+            "matches": 13
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20626.png",
+        "fantasy_points": {
+            "overall": 3456,
+            "2024": 516,
+            "2025": 195.5
+        },
+        "set": 2
+    },
+    {
+        "id": "p61",
+        "name": "Krunal Pandya",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 60,
+            "wickets": 17,
+            "avg": 21.3,
+            "fours": 9,
+            "sixes": 4,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3183.png",
+        "fantasy_points": {
+            "overall": 2684,
+            "2024": 536,
+            "2025": 195.0
+        },
+        "set": 2
+    },
+    {
+        "id": "p50",
+        "name": "Khaleel Ahmed",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 15,
+            "avg": 26.4,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2964.png",
+        "fantasy_points": {
+            "overall": 1270,
+            "2024": 497,
+            "2025": 195.0
+        },
+        "set": 2
+    },
+    {
+        "id": "p93",
+        "name": "Mohsin Khan",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 232,
+            "wickets": 48,
+            "avg": 37.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/4952.png",
+        "fantasy_points": {
+            "overall": 4687,
+            "2024": 665,
+            "2025": 193.9
+        },
+        "set": 2
+    },
+    {
+        "id": "p28",
+        "name": "Faf du Plessis",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4133,
+            "avg": 36
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/24.png",
+        "fantasy_points": {
+            "overall": 2456,
+            "2024": 438,
+            "2025": 191.7
+        },
+        "set": 3
+    },
+    {
+        "id": "p76",
+        "name": "Ruturaj Gaikwad",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 3193,
+            "wickets": 0,
+            "avg": 25.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5443.png",
+        "fantasy_points": {
+            "overall": 1688,
+            "2024": 317,
+            "2025": 191.7
+        },
+        "set": 3
+    },
+    {
+        "id": "p72",
+        "name": "Jake Fraser-McGurk",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 1866,
+            "wickets": 0,
+            "avg": 35.1
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 4873,
+            "2024": 674,
+            "2025": 186.8
+        },
+        "set": 3
+    },
+    {
+        "id": "p19",
+        "name": "KL Rahul",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4163,
+            "avg": 46.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1125.png",
+        "fantasy_points": {
+            "overall": 4614,
+            "2024": 782,
+            "2025": 185.8
+        },
+        "set": 3
+    },
+    {
+        "id": "p67",
+        "name": "Jacob Bethell",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4399,
+            "wickets": 121,
+            "avg": 21.7
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22074.png",
+        "fantasy_points": {
+            "overall": 3409,
+            "2024": 497,
+            "2025": 185.8
+        },
+        "set": 3
+    },
+    {
+        "id": "p11",
+        "name": "Travis Head",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 290,
+            "strike_rate": 160,
+            "fours": 50,
+            "sixes": 15,
+            "wickets": 0,
+            "matches": 13
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1020.png",
+        "fantasy_points": {
+            "overall": 2799,
+            "2024": 578,
+            "2025": 185.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p2",
+        "name": "Rohit Sharma",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 296,
+            "avg": 29.6,
+            "fours": 41,
+            "sixes": 22,
+            "wickets": 0,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/107.png",
+        "fantasy_points": {
+            "overall": 2430,
+            "2024": 302,
+            "2025": 182.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p87",
+        "name": "Varun Chakaravarthy",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 17,
+            "avg": 24.6,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 13
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5432.png",
+        "fantasy_points": {
+            "overall": 4073,
+            "2024": 455,
+            "2025": 181.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p9",
+        "name": "Subman Gill",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 2790,
+            "avg": 37.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/62.png",
+        "fantasy_points": {
+            "overall": 3559,
+            "2024": 422,
+            "2025": 181.1
+        },
+        "set": 3
+    },
+    {
+        "id": "p40",
+        "name": "Xavier Bartlett",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 475,
+            "wickets": 146,
+            "avg": 26.0
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22112.png",
+        "fantasy_points": {
+            "overall": 2510,
+            "2024": 690,
+            "2025": 180.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p16",
+        "name": "Glen Maxwell",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "strike_rate": 157,
+            "ipl_runs": 2719
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png",
+        "fantasy_points": {
+            "overall": 1539,
+            "2024": 741,
+            "2025": 178.4
+        },
+        "set": 3
+    },
+    {
+        "id": "p66",
+        "name": "Manoj Bhandage",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 987,
+            "wickets": 141,
+            "avg": 20.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 4342,
+            "2024": 430,
+            "2025": 175.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p26",
+        "name": "Kagiso Rabada",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 106,
+            "economy": 8.3
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1664.png",
+        "fantasy_points": {
+            "overall": 4267,
+            "2024": 663,
+            "2025": 174.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p57",
+        "name": "Jitesh Sharma",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 198,
+            "wickets": 0,
+            "avg": 22.4,
+            "fours": 24,
+            "sixes": 17,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3185.png",
+        "fantasy_points": {
+            "overall": 4287,
+            "2024": 608,
+            "2025": 172.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p7",
+        "name": "David Warner",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 6397,
+            "avg": 41.5
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/170.png",
+        "fantasy_points": {
+            "overall": 3687,
+            "2024": 459,
+            "2025": 171.8
+        },
+        "set": 3
+    },
+    {
+        "id": "p59",
+        "name": "Rasikh Dar",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 407,
+            "wickets": 146,
+            "avg": 34.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20577.png",
+        "fantasy_points": {
+            "overall": 4997,
+            "2024": 441,
+            "2025": 171.6
+        },
+        "set": 3
+    },
+    {
+        "id": "p35",
+        "name": "Deepak Chahar",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 24,
+            "wickets": 11,
+            "avg": 28.6,
+            "fours": 3,
+            "sixes": 2,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/140.png",
+        "fantasy_points": {
+            "overall": 2741,
+            "2024": 651,
+            "2025": 167.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p30",
+        "name": "Kuldeep Yadav",
+        "role": "Bowler",
+        "basePrice": 150,
+        "stats": {
+            "wickets": 15,
+            "economy": 8.1,
+            "ipl_runs": 8,
+            "fours": 2,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/261.png",
+        "fantasy_points": {
+            "overall": 1692,
+            "2024": 764,
+            "2025": 164.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p46",
+        "name": "Devon Conway",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 4506,
+            "wickets": 0,
+            "avg": 31.6
+        },
+        "country": "NZ",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 2315,
+            "2024": 262,
+            "2025": 163.4
+        },
+        "set": 3
+    },
+    {
+        "id": "p53",
+        "name": "Will Jacks",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 154,
+            "wickets": 6,
+            "avg": 23.6,
+            "fours": 22,
+            "sixes": 11,
+            "matches": 13
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5629.png",
+        "fantasy_points": {
+            "overall": 2197,
+            "2024": 738,
+            "2025": 163.0
+        },
+        "set": 3
+    },
+    {
+        "id": "p73",
+        "name": "T. Natarajan",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 287,
+            "wickets": 149,
+            "avg": 23.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3831.png",
+        "fantasy_points": {
+            "overall": 3031,
+            "2024": 416,
+            "2025": 162.4
+        },
+        "set": 3
+    },
+    {
+        "id": "p8",
+        "name": "Andre Russell",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "strike_rate": 174,
+            "wickets": 8,
+            "ipl_runs": 148,
+            "fours": 16,
+            "sixes": 14,
+            "matches": 13
+        },
+        "country": "WI",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/177.png",
+        "fantasy_points": {
+            "overall": 1051,
+            "2024": 634,
+            "2025": 158.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p6",
+        "name": "Rashid Khan",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 9,
+            "economy": 6.3,
+            "ipl_runs": 26,
+            "fours": 2,
+            "sixes": 3,
+            "matches": 15
+        },
+        "country": "AFG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2885.png",
+        "fantasy_points": {
+            "overall": 3803,
+            "2024": 331,
+            "2025": 157.5
+        },
+        "set": 3
+    },
+    {
+        "id": "p45",
+        "name": "Ashwani Kumar",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 324,
+            "wickets": 60,
+            "avg": 33.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22030.png",
+        "fantasy_points": {
+            "overall": 1661,
+            "2024": 253,
+            "2025": 156.4
+        },
+        "set": 3
+    },
+    {
+        "id": "p43",
+        "name": "Rajvardhan Hangargekar",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 877,
+            "wickets": 36,
+            "avg": 38.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 2911,
+            "2024": 621,
+            "2025": 154.7
+        },
+        "set": 3
+    },
+    {
+        "id": "p32",
+        "name": "Mitchell Starc",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 14,
+            "avg": 27.4,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 11
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/490.png",
+        "fantasy_points": {
+            "overall": 3486,
+            "2024": 265,
+            "2025": 151.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p99",
+        "name": "Dhruv Jurel",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 220,
+            "wickets": 0,
+            "avg": 37.5,
+            "fours": 22,
+            "sixes": 22,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20620.png",
+        "fantasy_points": {
+            "overall": 1145,
+            "2024": 567,
+            "2025": 151.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p55",
+        "name": "Yash Dayal",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 13,
+            "avg": 37.2,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20591.png",
+        "fantasy_points": {
+            "overall": 2042,
+            "2024": 320,
+            "2025": 150.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p77",
+        "name": "Shivam Dube",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 214,
+            "wickets": 0,
+            "avg": 37.3,
+            "fours": 22,
+            "sixes": 21,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5431.png",
+        "fantasy_points": {
+            "overall": 2486,
+            "2024": 367,
+            "2025": 139.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p94",
+        "name": "Ayush Badoni",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 192,
+            "wickets": 2,
+            "avg": 22.8,
+            "fours": 27,
+            "sixes": 14,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20586.png",
+        "fantasy_points": {
+            "overall": 2280,
+            "2024": 542,
+            "2025": 136.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p78",
+        "name": "Matheesha Pathirana",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 13,
+            "avg": 37.1,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 12
+        },
+        "country": "SL",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20627.png",
+        "fantasy_points": {
+            "overall": 2397,
+            "2024": 465,
+            "2025": 135.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p18",
+        "name": "Yuzvendra Chahal",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "wickets": 16,
+            "economy": 7.6,
+            "ipl_runs": 0,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/111.png",
+        "fantasy_points": {
+            "overall": 4739,
+            "2024": 550,
+            "2025": 134.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p60",
+        "name": "Suyash Sharma",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 8,
+            "avg": 37.8,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5668.png",
+        "fantasy_points": {
+            "overall": 4515,
+            "2024": 212,
+            "2025": 132.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p37",
+        "name": "Mukesh Kumar",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 0,
+            "wickets": 12,
+            "avg": 38.5,
+            "fours": 0,
+            "sixes": 0,
+            "matches": 12
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5622.png",
+        "fantasy_points": {
+            "overall": 3586,
+            "2024": 718,
+            "2025": 131.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p80",
+        "name": "Tristan Stubbs",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 166,
+            "wickets": 0,
+            "avg": 34.1,
+            "fours": 25,
+            "sixes": 11,
+            "matches": 14
+        },
+        "country": "SA",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20631.png",
+        "fantasy_points": {
+            "overall": 1688,
+            "2024": 658,
+            "2025": 131.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p14",
+        "name": "Rishabh Pant",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 188,
+            "strike_rate": 147,
+            "fours": 23,
+            "sixes": 16,
+            "wickets": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2972.png",
+        "fantasy_points": {
+            "overall": 4680,
+            "2024": 623,
+            "2025": 130.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p33",
+        "name": "Vaibhav Suryavanshi",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 216,
+            "wickets": 0,
+            "avg": 35.7,
+            "fours": 18,
+            "sixes": 24,
+            "matches": 7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/22203.png",
+        "fantasy_points": {
+            "overall": 4814,
+            "2024": 480,
+            "2025": 129.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p22",
+        "name": "Sanju Samson",
+        "role": "Wicket Keeper",
+        "basePrice": 150,
+        "stats": {
+            "ipl_runs": 186,
+            "strike_rate": 137,
+            "fours": 27,
+            "sixes": 13,
+            "wickets": 0,
+            "matches": 9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/258.png",
+        "fantasy_points": {
+            "overall": 3715,
+            "2024": 420,
+            "2025": 125.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p91",
+        "name": "Ravi Bishnoi",
+        "role": "Bowler",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 12,
+            "wickets": 9,
+            "avg": 32.4,
+            "fours": 0,
+            "sixes": 2,
+            "matches": 11
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/19351.png",
+        "fantasy_points": {
+            "overall": 4143,
+            "2024": 332,
+            "2025": 121.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p54",
+        "name": "Rajat Patidar",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 184,
+            "wickets": 0,
+            "avg": 36.0,
+            "fours": 25,
+            "sixes": 14,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5471.png",
+        "fantasy_points": {
+            "overall": 2374,
+            "2024": 432,
+            "2025": 116.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p98",
+        "name": "Shimron Hetmyer",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 134,
+            "wickets": 0,
+            "avg": 21.8,
+            "fours": 17,
+            "sixes": 11,
+            "matches": 14
+        },
+        "country": "WI",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1705.png",
+        "fantasy_points": {
+            "overall": 1102,
+            "2024": 596,
+            "2025": 115.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p27",
+        "name": "Liam Livingstone",
+        "role": "All-Rounder",
+        "basePrice": 150,
+        "stats": {
+            "strike_rate": 165,
+            "ipl_runs": 828
+        },
+        "country": "ENG",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3644.png",
+        "fantasy_points": {
+            "overall": 4872,
+            "2024": 678,
+            "2025": 112.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p86",
+        "name": "Rinku Singh",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 140,
+            "wickets": 0,
+            "avg": 38.3,
+            "fours": 20,
+            "sixes": 10,
+            "matches": 13
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3830.png",
+        "fantasy_points": {
+            "overall": 3233,
+            "2024": 290,
+            "2025": 109.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p63",
+        "name": "Tim David",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 148,
+            "wickets": 0,
+            "avg": 20.5,
+            "fours": 16,
+            "sixes": 14,
+            "matches": 12
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/4524.png",
+        "fantasy_points": {
+            "overall": 2117,
+            "2024": 386,
+            "2025": 108.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p68",
+        "name": "Devdutt Padikkal",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 168,
+            "wickets": 0,
+            "avg": 33.3,
+            "fours": 21,
+            "sixes": 14,
+            "matches": 10
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5430.png",
+        "fantasy_points": {
+            "overall": 1362,
+            "2024": 641,
+            "2025": 104.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p5",
+        "name": "MS Dhoni",
+        "role": "Wicket Keeper",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 120,
+            "avg": 39.1,
+            "fours": 12,
+            "sixes": 12,
+            "wickets": 0,
+            "matches": 14
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1.png",
+        "fantasy_points": {
+            "overall": 4648,
+            "2024": 711,
+            "2025": 104.0
+        },
+        "set": 4
+    },
+    {
+        "id": "p49",
+        "name": "Ravichandran Ashwin",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 18,
+            "wickets": 7,
+            "avg": 38.4,
+            "fours": 3,
+            "sixes": 1,
+            "matches": 9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 3822,
+            "2024": 570,
+            "2025": 102.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p74",
+        "name": "Marcus Stoinis",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 122,
+            "wickets": 1,
+            "avg": 31.6,
+            "fours": 8,
+            "sixes": 15,
+            "matches": 13
+        },
+        "country": "AUS",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/964.png",
+        "fantasy_points": {
+            "overall": 3822,
+            "2024": 582,
+            "2025": 100.5
+        },
+        "set": 4
+    },
+    {
+        "id": "p230",
+        "name": "Dhruv Reddy",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 75,
+            "wickets": 4,
+            "avg": 17.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1113,
+            "2024": 146,
+            "2025": 98.6
+        },
+        "set": 4
+    },
+    {
+        "id": "p111",
+        "name": "Ishaan Patel",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 190,
+            "wickets": 3,
+            "avg": 24.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1563,
+            "2024": 111,
+            "2025": 98.2
+        },
+        "set": 4
+    },
+    {
+        "id": "p135",
+        "name": "Aryan Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 344,
+            "wickets": 7,
+            "avg": 29.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1712,
+            "2024": 358,
+            "2025": 97.7
+        },
+        "set": 5
+    },
+    {
+        "id": "p109",
+        "name": "Vivaan Gupta",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 12,
+            "wickets": 8,
+            "avg": 17.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1169,
+            "2024": 357,
+            "2025": 97.5
+        },
+        "set": 5
+    },
+    {
+        "id": "p152",
+        "name": "Aryan Agarwal",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 456,
+            "wickets": 6,
+            "avg": 26.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 564,
+            "2024": 284,
+            "2025": 97.1
+        },
+        "set": 5
+    },
+    {
+        "id": "p126",
+        "name": "Sai Kumar",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 494,
+            "wickets": 11,
+            "avg": 24.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1010,
+            "2024": 302,
+            "2025": 96.8
+        },
+        "set": 5
+    },
+    {
+        "id": "p165",
+        "name": "Arjun Iyer",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 294,
+            "wickets": 7,
+            "avg": 26.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1754,
+            "2024": 366,
+            "2025": 95.3
+        },
+        "set": 5
+    },
+    {
+        "id": "p64",
+        "name": "Romario Shepherd",
+        "role": "All-Rounder",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 62,
+            "wickets": 6,
+            "avg": 27.7,
+            "fours": 5,
+            "sixes": 7,
+            "matches": 8
+        },
+        "country": "WI",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20609.png",
+        "fantasy_points": {
+            "overall": 3685,
+            "2024": 792,
+            "2025": 95.0
+        },
+        "set": 5
+    },
+    {
+        "id": "p229",
+        "name": "Reyansh Kumar",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 319,
+            "wickets": 13,
+            "avg": 22.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1487,
+            "2024": 166,
+            "2025": 94.8
+        },
+        "set": 5
+    },
+    {
+        "id": "p241",
+        "name": "Kabir Reddy",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 405,
+            "wickets": 2,
+            "avg": 23.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 598,
+            "2024": 198,
+            "2025": 94.2
+        },
+        "set": 5
+    },
+    {
+        "id": "p208",
+        "name": "Dhruv Bose",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 440,
+            "wickets": 13,
+            "avg": 17.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1277,
+            "2024": 244,
+            "2025": 93.7
+        },
+        "set": 5
+    },
+    {
+        "id": "p196",
+        "name": "Rahul Jain",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 246,
+            "wickets": 2,
+            "avg": 17.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1552,
+            "2024": 110,
+            "2025": 93.2
+        },
+        "set": 5
+    },
+    {
+        "id": "p171",
+        "name": "Pranav Mehta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 73,
+            "wickets": 8,
+            "avg": 18.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1075,
+            "2024": 284,
+            "2025": 93.1
+        },
+        "set": 5
+    },
+    {
+        "id": "p158",
+        "name": "Kabir Iyer",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 59,
+            "wickets": 2,
+            "avg": 28.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 886,
+            "2024": 246,
+            "2025": 92.3
+        },
+        "set": 5
+    },
+    {
+        "id": "p240",
+        "name": "Karthik Sharma",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 486,
+            "wickets": 6,
+            "avg": 24.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1810,
+            "2024": 144,
+            "2025": 91.9
+        },
+        "set": 5
+    },
+    {
+        "id": "p248",
+        "name": "Vivaan Iyer",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 215,
+            "wickets": 11,
+            "avg": 21.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 783,
+            "2024": 118,
+            "2025": 91.9
+        },
+        "set": 5
+    },
+    {
+        "id": "p201",
+        "name": "Reyansh Sharma",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 192,
+            "wickets": 12,
+            "avg": 18.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1703,
+            "2024": 282,
+            "2025": 91.8
+        },
+        "set": 5
+    },
+    {
+        "id": "p249",
+        "name": "Rahul Shah",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 210,
+            "wickets": 9,
+            "avg": 24.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1516,
+            "2024": 143,
+            "2025": 91.8
+        },
+        "set": 5
+    },
+    {
+        "id": "p149",
+        "name": "Vikram Jain",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 488,
+            "wickets": 12,
+            "avg": 27.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1477,
+            "2024": 313,
+            "2025": 91.7
+        },
+        "set": 5
+    },
+    {
+        "id": "p136",
+        "name": "Karthik Tiwari",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 321,
+            "wickets": 3,
+            "avg": 25.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 874,
+            "2024": 301,
+            "2025": 91.4
+        },
+        "set": 5
+    },
+    {
+        "id": "p177",
+        "name": "Kabir Kumar",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 428,
+            "wickets": 8,
+            "avg": 19.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 918,
+            "2024": 328,
+            "2025": 91.2
+        },
+        "set": 5
+    },
+    {
+        "id": "p192",
+        "name": "Ishaan Rao",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 294,
+            "wickets": 9,
+            "avg": 22.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1250,
+            "2024": 338,
+            "2025": 91.1
+        },
+        "set": 5
+    },
+    {
+        "id": "p216",
+        "name": "Nikhil Das",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 21,
+            "wickets": 19,
+            "avg": 19.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 965,
+            "2024": 143,
+            "2025": 90.3
+        },
+        "set": 5
+    },
+    {
+        "id": "p233",
+        "name": "Vihaan Patel",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 20,
+            "wickets": 20,
+            "avg": 21.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1186,
+            "2024": 348,
+            "2025": 90.1
+        },
+        "set": 5
+    },
+    {
+        "id": "p85",
+        "name": "Shahrukh Khan",
+        "role": "Batsman",
+        "basePrice": 200,
+        "stats": {
+            "ipl_runs": 122,
+            "wickets": 1,
+            "avg": 38.5,
+            "fours": 11,
+            "sixes": 13,
+            "matches": 15
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/7779.png",
+        "fantasy_points": {
+            "overall": 2106,
+            "2024": 510,
+            "2025": 90.0
+        },
+        "set": 5
+    },
+    {
+        "id": "p170",
+        "name": "Arjun Nair",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 39,
+            "wickets": 5,
+            "avg": 29.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 676,
+            "2024": 247,
+            "2025": 89.1
+        },
+        "set": 5
+    },
+    {
+        "id": "p104",
+        "name": "Kabir Mishra",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 137,
+            "wickets": 8,
+            "avg": 21.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1480,
+            "2024": 227,
+            "2025": 88.9
+        },
+        "set": 5
+    },
+    {
+        "id": "p154",
+        "name": "Rahul Kumar",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 15,
+            "wickets": 11,
+            "avg": 17.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1150,
+            "2024": 192,
+            "2025": 88.5
+        },
+        "set": 6
+    },
+    {
+        "id": "p218",
+        "name": "Reyansh Nair",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 185,
+            "wickets": 3,
+            "avg": 20.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1726,
+            "2024": 149,
+            "2025": 88.0
+        },
+        "set": 6
+    },
+    {
+        "id": "p163",
+        "name": "Kabir Reddy",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 425,
+            "wickets": 20,
+            "avg": 26.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1949,
+            "2024": 368,
+            "2025": 87.7
+        },
+        "set": 6
+    },
+    {
+        "id": "p202",
+        "name": "Rohan Iyer",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 338,
+            "wickets": 5,
+            "avg": 18.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1128,
+            "2024": 231,
+            "2025": 87.5
+        },
+        "set": 6
+    },
+    {
+        "id": "p219",
+        "name": "Vivaan Joshi",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 385,
+            "wickets": 5,
+            "avg": 23.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1432,
+            "2024": 333,
+            "2025": 86.3
+        },
+        "set": 6
+    },
+    {
+        "id": "p129",
+        "name": "Pranav Jain",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 192,
+            "wickets": 20,
+            "avg": 18.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 824,
+            "2024": 123,
+            "2025": 86.0
+        },
+        "set": 6
+    },
+    {
+        "id": "p238",
+        "name": "Aarav Das",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 85,
+            "wickets": 12,
+            "avg": 27.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1244,
+            "2024": 276,
+            "2025": 85.5
+        },
+        "set": 6
+    },
+    {
+        "id": "p197",
+        "name": "Kabir Rao",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 492,
+            "wickets": 3,
+            "avg": 23.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1968,
+            "2024": 268,
+            "2025": 84.9
+        },
+        "set": 6
+    },
+    {
+        "id": "p157",
+        "name": "Rohan Shah",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 299,
+            "wickets": 14,
+            "avg": 25.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 673,
+            "2024": 309,
+            "2025": 84.8
+        },
+        "set": 6
+    },
+    {
+        "id": "p189",
+        "name": "Varun Agarwal",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 183,
+            "wickets": 11,
+            "avg": 22.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1782,
+            "2024": 387,
+            "2025": 84.7
+        },
+        "set": 6
+    },
+    {
+        "id": "p223",
+        "name": "Arjun Nair",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 167,
+            "wickets": 0,
+            "avg": 29.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1882,
+            "2024": 355,
+            "2025": 83.6
+        },
+        "set": 6
+    },
+    {
+        "id": "p108",
+        "name": "Arjun Iyer",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 311,
+            "wickets": 5,
+            "avg": 23.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1376,
+            "2024": 131,
+            "2025": 82.9
+        },
+        "set": 6
+    },
+    {
+        "id": "p179",
+        "name": "Sai Agarwal",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 228,
+            "wickets": 0,
+            "avg": 25.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1779,
+            "2024": 138,
+            "2025": 82.2
+        },
+        "set": 6
+    },
+    {
+        "id": "p169",
+        "name": "Ansh Jain",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 494,
+            "wickets": 13,
+            "avg": 30.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1917,
+            "2024": 177,
+            "2025": 81.6
+        },
+        "set": 6
+    },
+    {
+        "id": "p168",
+        "name": "Rohan Iyer",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 98,
+            "wickets": 18,
+            "avg": 29.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1403,
+            "2024": 145,
+            "2025": 80.8
+        },
+        "set": 6
+    },
+    {
+        "id": "p106",
+        "name": "Siddharth Bose",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 169,
+            "wickets": 1,
+            "avg": 27.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1529,
+            "2024": 170,
+            "2025": 80.1
+        },
+        "set": 6
+    },
+    {
+        "id": "p227",
+        "name": "Kabir Patel",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 58,
+            "wickets": 15,
+            "avg": 22.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 814,
+            "2024": 191,
+            "2025": 80.1
+        },
+        "set": 6
+    },
+    {
+        "id": "p211",
+        "name": "Vikram Kumar",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 42,
+            "wickets": 4,
+            "avg": 18.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1938,
+            "2024": 340,
+            "2025": 79.4
+        },
+        "set": 6
+    },
+    {
+        "id": "p243",
+        "name": "Rohan Iyer",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 466,
+            "wickets": 11,
+            "avg": 26.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1656,
+            "2024": 159,
+            "2025": 79.0
+        },
+        "set": 6
+    },
+    {
+        "id": "p137",
+        "name": "Aryan Iyer",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 163,
+            "wickets": 5,
+            "avg": 28.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1787,
+            "2024": 374,
+            "2025": 77.6
+        },
+        "set": 6
+    },
+    {
+        "id": "p102",
+        "name": "Vivaan Agarwal",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 91,
+            "wickets": 19,
+            "avg": 27.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1855,
+            "2024": 232,
+            "2025": 77.5
+        },
+        "set": 6
+    },
+    {
+        "id": "p204",
+        "name": "Aryan Singh",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 48,
+            "wickets": 11,
+            "avg": 26.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1419,
+            "2024": 193,
+            "2025": 76.9
+        },
+        "set": 6
+    },
+    {
+        "id": "p103",
+        "name": "Vivaan Shah",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 61,
+            "wickets": 13,
+            "avg": 24.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1829,
+            "2024": 299,
+            "2025": 75.2
+        },
+        "set": 6
+    },
+    {
+        "id": "p172",
+        "name": "Aryan Kumar",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 282,
+            "wickets": 10,
+            "avg": 24.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 651,
+            "2024": 202,
+            "2025": 74.6
+        },
+        "set": 6
+    },
+    {
+        "id": "p107",
+        "name": "Ansh Kumar",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 97,
+            "wickets": 13,
+            "avg": 28.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 969,
+            "2024": 217,
+            "2025": 70.9
+        },
+        "set": 6
+    },
+    {
+        "id": "p120",
+        "name": "Rohan Ghosh",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 444,
+            "wickets": 16,
+            "avg": 25.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 720,
+            "2024": 110,
+            "2025": 70.6
+        },
+        "set": 7
+    },
+    {
+        "id": "p123",
+        "name": "Vikram Iyer",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 450,
+            "wickets": 20,
+            "avg": 21.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1841,
+            "2024": 334,
+            "2025": 70.4
+        },
+        "set": 7
+    },
+    {
+        "id": "p167",
+        "name": "Sai Ghosh",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 46,
+            "wickets": 19,
+            "avg": 22.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1112,
+            "2024": 278,
+            "2025": 70.4
+        },
+        "set": 7
+    },
+    {
+        "id": "p183",
+        "name": "Rahul Mehta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 376,
+            "wickets": 9,
+            "avg": 21.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1535,
+            "2024": 264,
+            "2025": 69.3
+        },
+        "set": 7
+    },
+    {
+        "id": "p130",
+        "name": "Aarav Tiwari",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 13,
+            "wickets": 16,
+            "avg": 18.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 675,
+            "2024": 261,
+            "2025": 68.0
+        },
+        "set": 7
+    },
+    {
+        "id": "p155",
+        "name": "Arjun Tiwari",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 135,
+            "wickets": 1,
+            "avg": 21.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1201,
+            "2024": 119,
+            "2025": 67.7
+        },
+        "set": 7
+    },
+    {
+        "id": "p144",
+        "name": "Sai Joshi",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 200,
+            "wickets": 18,
+            "avg": 24.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1308,
+            "2024": 285,
+            "2025": 67.5
+        },
+        "set": 7
+    },
+    {
+        "id": "p214",
+        "name": "Rohan Singh",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 5,
+            "wickets": 8,
+            "avg": 20.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1596,
+            "2024": 373,
+            "2025": 67.2
+        },
+        "set": 7
+    },
+    {
+        "id": "p151",
+        "name": "Rahul Verma",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 92,
+            "wickets": 3,
+            "avg": 28.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1644,
+            "2024": 374,
+            "2025": 66.4
+        },
+        "set": 7
+    },
+    {
+        "id": "p119",
+        "name": "Arjun Joshi",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 332,
+            "wickets": 10,
+            "avg": 22.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 528,
+            "2024": 110,
+            "2025": 66.0
+        },
+        "set": 7
+    },
+    {
+        "id": "p122",
+        "name": "Vivaan Nair",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 325,
+            "wickets": 9,
+            "avg": 16.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1711,
+            "2024": 391,
+            "2025": 65.5
+        },
+        "set": 7
+    },
+    {
+        "id": "p242",
+        "name": "Ansh Ghosh",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 94,
+            "wickets": 3,
+            "avg": 19.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1476,
+            "2024": 197,
+            "2025": 65.2
+        },
+        "set": 7
+    },
+    {
+        "id": "p156",
+        "name": "Aditya Reddy",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 173,
+            "wickets": 4,
+            "avg": 29.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1814,
+            "2024": 398,
+            "2025": 64.3
+        },
+        "set": 7
+    },
+    {
+        "id": "p160",
+        "name": "Vikram Shah",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 420,
+            "wickets": 19,
+            "avg": 25.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1419,
+            "2024": 175,
+            "2025": 63.8
+        },
+        "set": 7
+    },
+    {
+        "id": "p140",
+        "name": "Aryan Reddy",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 30,
+            "wickets": 8,
+            "avg": 18.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1794,
+            "2024": 139,
+            "2025": 63.7
+        },
+        "set": 7
+    },
+    {
+        "id": "p124",
+        "name": "Rahul Das",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 378,
+            "wickets": 12,
+            "avg": 24.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1879,
+            "2024": 191,
+            "2025": 63.5
+        },
+        "set": 7
+    },
+    {
+        "id": "p128",
+        "name": "Varun Gupta",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 57,
+            "wickets": 8,
+            "avg": 18.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1183,
+            "2024": 347,
+            "2025": 63.0
+        },
+        "set": 7
+    },
+    {
+        "id": "p210",
+        "name": "Ishaan Verma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 466,
+            "wickets": 9,
+            "avg": 23.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1351,
+            "2024": 349,
+            "2025": 63.0
+        },
+        "set": 7
+    },
+    {
+        "id": "p133",
+        "name": "Siddharth Verma",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 366,
+            "wickets": 8,
+            "avg": 22.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 648,
+            "2024": 151,
+            "2025": 62.4
+        },
+        "set": 7
+    },
+    {
+        "id": "p194",
+        "name": "Kabir Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 39,
+            "wickets": 1,
+            "avg": 29.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1242,
+            "2024": 370,
+            "2025": 62.2
+        },
+        "set": 7
+    },
+    {
+        "id": "p209",
+        "name": "Ansh Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 277,
+            "wickets": 19,
+            "avg": 29.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1006,
+            "2024": 213,
+            "2025": 61.8
+        },
+        "set": 7
+    },
+    {
+        "id": "p115",
+        "name": "Sai Tiwari",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 262,
+            "wickets": 12,
+            "avg": 27.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1343,
+            "2024": 125,
+            "2025": 61.7
+        },
+        "set": 7
+    },
+    {
+        "id": "p244",
+        "name": "Siddharth Verma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 346,
+            "wickets": 19,
+            "avg": 15.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/7119.png",
+        "fantasy_points": {
+            "overall": 563,
+            "2024": 207,
+            "2025": 61.2
+        },
+        "set": 7
+    },
+    {
+        "id": "p206",
+        "name": "Rohan Joshi",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 182,
+            "wickets": 5,
+            "avg": 16.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1398,
+            "2024": 232,
+            "2025": 60.6
+        },
+        "set": 7
+    },
+    {
+        "id": "p207",
+        "name": "Aryan Mishra",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 106,
+            "wickets": 4,
+            "avg": 23.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1892,
+            "2024": 288,
+            "2025": 60.4
+        },
+        "set": 7
+    },
+    {
+        "id": "p159",
+        "name": "Rohan Verma",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 148,
+            "wickets": 0,
+            "avg": 25.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1321,
+            "2024": 213,
+            "2025": 59.7
+        },
+        "set": 8
+    },
+    {
+        "id": "p228",
+        "name": "Reyansh Reddy",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 141,
+            "wickets": 14,
+            "avg": 16.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1655,
+            "2024": 380,
+            "2025": 58.6
+        },
+        "set": 8
+    },
+    {
+        "id": "p175",
+        "name": "Karthik Reddy",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 491,
+            "wickets": 7,
+            "avg": 15.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1707,
+            "2024": 194,
+            "2025": 58.0
+        },
+        "set": 8
+    },
+    {
+        "id": "p181",
+        "name": "Nikhil Shah",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 297,
+            "wickets": 0,
+            "avg": 22.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1698,
+            "2024": 273,
+            "2025": 57.9
+        },
+        "set": 8
+    },
+    {
+        "id": "p245",
+        "name": "Ishaan Bose",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 491,
+            "wickets": 18,
+            "avg": 27.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1081,
+            "2024": 204,
+            "2025": 57.9
+        },
+        "set": 8
+    },
+    {
+        "id": "p236",
+        "name": "Siddharth Reddy",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 88,
+            "wickets": 11,
+            "avg": 25.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1470,
+            "2024": 180,
+            "2025": 56.7
+        },
+        "set": 8
+    },
+    {
+        "id": "p162",
+        "name": "Arjun Tiwari",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 218,
+            "wickets": 18,
+            "avg": 22.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1494,
+            "2024": 377,
+            "2025": 55.8
+        },
+        "set": 8
+    },
+    {
+        "id": "p191",
+        "name": "Vihaan Jain",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 308,
+            "wickets": 17,
+            "avg": 16.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 685,
+            "2024": 171,
+            "2025": 55.6
+        },
+        "set": 8
+    },
+    {
+        "id": "p141",
+        "name": "Karthik Reddy",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 375,
+            "wickets": 19,
+            "avg": 22.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1815,
+            "2024": 229,
+            "2025": 54.7
+        },
+        "set": 8
+    },
+    {
+        "id": "p145",
+        "name": "Rohan Mishra",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 304,
+            "wickets": 17,
+            "avg": 19.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 615,
+            "2024": 107,
+            "2025": 53.5
+        },
+        "set": 8
+    },
+    {
+        "id": "p250",
+        "name": "Arjun Das",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 277,
+            "wickets": 3,
+            "avg": 18.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1443,
+            "2024": 347,
+            "2025": 53.3
+        },
+        "set": 8
+    },
+    {
+        "id": "p134",
+        "name": "Varun Gupta",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 208,
+            "wickets": 14,
+            "avg": 22.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 649,
+            "2024": 288,
+            "2025": 52.8
+        },
+        "set": 8
+    },
+    {
+        "id": "p220",
+        "name": "Dhruv Iyer",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 242,
+            "wickets": 1,
+            "avg": 23.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 559,
+            "2024": 159,
+            "2025": 51.5
+        },
+        "set": 8
+    },
+    {
+        "id": "p131",
+        "name": "Pranav Verma",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 145,
+            "wickets": 2,
+            "avg": 21.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1457,
+            "2024": 173,
+            "2025": 51.3
+        },
+        "set": 8
+    },
+    {
+        "id": "p116",
+        "name": "Aditya Reddy",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 484,
+            "wickets": 8,
+            "avg": 16.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1398,
+            "2024": 108,
+            "2025": 50.3
+        },
+        "set": 8
+    },
+    {
+        "id": "p139",
+        "name": "Karthik Joshi",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 13,
+            "wickets": 15,
+            "avg": 26.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1455,
+            "2024": 210,
+            "2025": 50.1
+        },
+        "set": 8
+    },
+    {
+        "id": "p186",
+        "name": "Nikhil Patel",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 104,
+            "wickets": 15,
+            "avg": 24.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 817,
+            "2024": 240,
+            "2025": 50.0
+        },
+        "set": 8
+    },
+    {
+        "id": "p173",
+        "name": "Kabir Tiwari",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 361,
+            "wickets": 12,
+            "avg": 24.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1641,
+            "2024": 271,
+            "2025": 49.3
+        },
+        "set": 8
+    },
+    {
+        "id": "p146",
+        "name": "Nikhil Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 454,
+            "wickets": 18,
+            "avg": 16.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1503,
+            "2024": 245,
+            "2025": 49.2
+        },
+        "set": 8
+    },
+    {
+        "id": "p125",
+        "name": "Vikram Mishra",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 298,
+            "wickets": 14,
+            "avg": 18.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1655,
+            "2024": 283,
+            "2025": 48.8
+        },
+        "set": 8
+    },
+    {
+        "id": "p148",
+        "name": "Reyansh Das",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 191,
+            "wickets": 4,
+            "avg": 20.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 710,
+            "2024": 123,
+            "2025": 48.3
+        },
+        "set": 8
+    },
+    {
+        "id": "p212",
+        "name": "Reyansh Gupta",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 169,
+            "wickets": 4,
+            "avg": 26.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1454,
+            "2024": 140,
+            "2025": 46.0
+        },
+        "set": 8
+    },
+    {
+        "id": "p117",
+        "name": "Reyansh Das",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 6,
+            "wickets": 8,
+            "avg": 29.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 693,
+            "2024": 284,
+            "2025": 45.9
+        },
+        "set": 8
+    },
+    {
+        "id": "p200",
+        "name": "Dhruv Verma",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 62,
+            "wickets": 7,
+            "avg": 22.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 526,
+            "2024": 348,
+            "2025": 45.7
+        },
+        "set": 8
+    },
+    {
+        "id": "p235",
+        "name": "Rohan Joshi",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 134,
+            "wickets": 11,
+            "avg": 29.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1753,
+            "2024": 278,
+            "2025": 45.6
+        },
+        "set": 8
+    },
+    {
+        "id": "p180",
+        "name": "Sai Rao",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 365,
+            "wickets": 0,
+            "avg": 19.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1432,
+            "2024": 131,
+            "2025": 44.9
+        },
+        "set": 9
+    },
+    {
+        "id": "p198",
+        "name": "Karthik Ghosh",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 295,
+            "wickets": 0,
+            "avg": 20.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1428,
+            "2024": 350,
+            "2025": 44.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p224",
+        "name": "Reyansh Sharma",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 35,
+            "wickets": 2,
+            "avg": 25.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1182,
+            "2024": 145,
+            "2025": 44.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p195",
+        "name": "Reyansh Nair",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 399,
+            "wickets": 2,
+            "avg": 26.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 807,
+            "2024": 300,
+            "2025": 44.2
+        },
+        "set": 9
+    },
+    {
+        "id": "p142",
+        "name": "Karthik Bose",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 350,
+            "wickets": 8,
+            "avg": 25.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1554,
+            "2024": 201,
+            "2025": 43.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p147",
+        "name": "Sai Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 143,
+            "wickets": 20,
+            "avg": 27.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1896,
+            "2024": 250,
+            "2025": 43.2
+        },
+        "set": 9
+    },
+    {
+        "id": "p166",
+        "name": "Dhruv Singh",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 390,
+            "wickets": 6,
+            "avg": 17.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1173,
+            "2024": 241,
+            "2025": 42.7
+        },
+        "set": 9
+    },
+    {
+        "id": "p213",
+        "name": "Sai Nair",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 234,
+            "wickets": 14,
+            "avg": 23.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 941,
+            "2024": 126,
+            "2025": 42.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p187",
+        "name": "Ishaan Jain",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 19,
+            "wickets": 10,
+            "avg": 21.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 793,
+            "2024": 381,
+            "2025": 41.1
+        },
+        "set": 9
+    },
+    {
+        "id": "p178",
+        "name": "Rohan Joshi",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 111,
+            "wickets": 7,
+            "avg": 18.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1956,
+            "2024": 190,
+            "2025": 41.0
+        },
+        "set": 9
+    },
+    {
+        "id": "p205",
+        "name": "Pranav Rao",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 471,
+            "wickets": 17,
+            "avg": 29.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1737,
+            "2024": 191,
+            "2025": 40.9
+        },
+        "set": 9
+    },
+    {
+        "id": "p188",
+        "name": "Sai Shah",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 163,
+            "wickets": 12,
+            "avg": 25.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1433,
+            "2024": 299,
+            "2025": 40.7
+        },
+        "set": 9
+    },
+    {
+        "id": "p234",
+        "name": "Aarav Reddy",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 241,
+            "wickets": 13,
+            "avg": 19.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1365,
+            "2024": 154,
+            "2025": 40.0
+        },
+        "set": 9
+    },
+    {
+        "id": "p174",
+        "name": "Rohan Tiwari",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 116,
+            "wickets": 13,
+            "avg": 29.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1520,
+            "2024": 280,
+            "2025": 39.6
+        },
+        "set": 9
+    },
+    {
+        "id": "p232",
+        "name": "Nikhil Patel",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 101,
+            "wickets": 20,
+            "avg": 21.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 693,
+            "2024": 396,
+            "2025": 39.6
+        },
+        "set": 9
+    },
+    {
+        "id": "p217",
+        "name": "Kabir Ghosh",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 151,
+            "wickets": 13,
+            "avg": 19.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1963,
+            "2024": 255,
+            "2025": 39.2
+        },
+        "set": 9
+    },
+    {
+        "id": "p215",
+        "name": "Aryan Reddy",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 189,
+            "wickets": 3,
+            "avg": 21.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1535,
+            "2024": 324,
+            "2025": 39.0
+        },
+        "set": 9
+    },
+    {
+        "id": "p112",
+        "name": "Rohan Tiwari",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 262,
+            "wickets": 5,
+            "avg": 24.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1697,
+            "2024": 273,
+            "2025": 38.0
+        },
+        "set": 9
+    },
+    {
+        "id": "p231",
+        "name": "Siddharth Rao",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 464,
+            "wickets": 1,
+            "avg": 17.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1028,
+            "2024": 249,
+            "2025": 37.8
+        },
+        "set": 9
+    },
+    {
+        "id": "p239",
+        "name": "Aditya Patel",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 56,
+            "wickets": 16,
+            "avg": 19.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1143,
+            "2024": 301,
+            "2025": 36.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p190",
+        "name": "Aryan Nair",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 441,
+            "wickets": 6,
+            "avg": 19.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 812,
+            "2024": 158,
+            "2025": 36.0
+        },
+        "set": 9
+    },
+    {
+        "id": "p143",
+        "name": "Reyansh Joshi",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 214,
+            "wickets": 7,
+            "avg": 24.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 637,
+            "2024": 274,
+            "2025": 35.9
+        },
+        "set": 9
+    },
+    {
+        "id": "p226",
+        "name": "Kabir Patel",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 209,
+            "wickets": 18,
+            "avg": 25.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 806,
+            "2024": 179,
+            "2025": 35.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p105",
+        "name": "Aditya Das",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 367,
+            "wickets": 20,
+            "avg": 18.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 738,
+            "2024": 326,
+            "2025": 34.4
+        },
+        "set": 9
+    },
+    {
+        "id": "p118",
+        "name": "Arjun Patel",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 309,
+            "wickets": 4,
+            "avg": 25.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 849,
+            "2024": 205,
+            "2025": 33.8
+        },
+        "set": 9
+    },
+    {
+        "id": "p221",
+        "name": "Ishaan Mehta",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 30,
+            "wickets": 19,
+            "avg": 26.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 829,
+            "2024": 265,
+            "2025": 33.2
+        },
+        "set": 10
+    },
+    {
+        "id": "p182",
+        "name": "Ishaan Joshi",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 250,
+            "wickets": 13,
+            "avg": 21.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1762,
+            "2024": 342,
+            "2025": 31.3
+        },
+        "set": 10
+    },
+    {
+        "id": "p164",
+        "name": "Sai Ghosh",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 469,
+            "wickets": 14,
+            "avg": 26.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1268,
+            "2024": 303,
+            "2025": 31.2
+        },
+        "set": 10
+    },
+    {
+        "id": "p138",
+        "name": "Sai Das",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 157,
+            "wickets": 8,
+            "avg": 24.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1871,
+            "2024": 164,
+            "2025": 31.1
+        },
+        "set": 10
+    },
+    {
+        "id": "p237",
+        "name": "Kabir Bose",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 416,
+            "wickets": 1,
+            "avg": 25.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 941,
+            "2024": 213,
+            "2025": 30.5
+        },
+        "set": 10
+    },
+    {
+        "id": "p113",
+        "name": "Sai Tiwari",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 485,
+            "wickets": 9,
+            "avg": 18.0
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1040,
+            "2024": 232,
+            "2025": 29.4
+        },
+        "set": 10
+    },
+    {
+        "id": "p101",
+        "name": "Sai Gupta",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 486,
+            "wickets": 5,
+            "avg": 29.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 797,
+            "2024": 195,
+            "2025": 29.0
+        },
+        "set": 10
+    },
+    {
+        "id": "p121",
+        "name": "Aryan Sharma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 46,
+            "wickets": 7,
+            "avg": 28.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 962,
+            "2024": 143,
+            "2025": 29.0
+        },
+        "set": 10
+    },
+    {
+        "id": "p161",
+        "name": "Vikram Sharma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 482,
+            "wickets": 5,
+            "avg": 18.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1782,
+            "2024": 247,
+            "2025": 27.2
+        },
+        "set": 10
+    },
+    {
+        "id": "p110",
+        "name": "Reyansh Agarwal",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 143,
+            "wickets": 2,
+            "avg": 27.8
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1160,
+            "2024": 106,
+            "2025": 27.1
+        },
+        "set": 10
+    },
+    {
+        "id": "p114",
+        "name": "Kabir Sharma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 402,
+            "wickets": 3,
+            "avg": 27.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1287,
+            "2024": 399,
+            "2025": 26.6
+        },
+        "set": 10
+    },
+    {
+        "id": "p184",
+        "name": "Dhruv Verma",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 371,
+            "wickets": 7,
+            "avg": 15.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1100,
+            "2024": 375,
+            "2025": 26.1
+        },
+        "set": 10
+    },
+    {
+        "id": "p225",
+        "name": "Siddharth Mishra",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 85,
+            "wickets": 20,
+            "avg": 24.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 827,
+            "2024": 390,
+            "2025": 25.5
+        },
+        "set": 10
+    },
+    {
+        "id": "p203",
+        "name": "Ishaan Shah",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 475,
+            "wickets": 6,
+            "avg": 16.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1957,
+            "2024": 129,
+            "2025": 25.2
+        },
+        "set": 10
+    },
+    {
+        "id": "p193",
+        "name": "Reyansh Rao",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 276,
+            "wickets": 12,
+            "avg": 24.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1226,
+            "2024": 149,
+            "2025": 25.1
+        },
+        "set": 10
+    },
+    {
+        "id": "p127",
+        "name": "Varun Reddy",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 33,
+            "wickets": 4,
+            "avg": 17.7
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 700,
+            "2024": 235,
+            "2025": 24.3
+        },
+        "set": 10
+    },
+    {
+        "id": "p176",
+        "name": "Sai Ghosh",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 270,
+            "wickets": 3,
+            "avg": 16.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1493,
+            "2024": 180,
+            "2025": 23.9
+        },
+        "set": 10
+    },
+    {
+        "id": "p246",
+        "name": "Reyansh Mishra",
+        "role": "Bowler",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 172,
+            "wickets": 0,
+            "avg": 18.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 969,
+            "2024": 282,
+            "2025": 23.8
+        },
+        "set": 10
+    },
+    {
+        "id": "p222",
+        "name": "Nikhil Bose",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 287,
+            "wickets": 14,
+            "avg": 23.5
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 593,
+            "2024": 134,
+            "2025": 23.7
+        },
+        "set": 10
+    },
+    {
+        "id": "p150",
+        "name": "Varun Gupta",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 379,
+            "wickets": 5,
+            "avg": 17.2
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1730,
+            "2024": 290,
+            "2025": 22.7
+        },
+        "set": 10
+    },
+    {
+        "id": "p199",
+        "name": "Siddharth Reddy",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 421,
+            "wickets": 15,
+            "avg": 19.1
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1493,
+            "2024": 121,
+            "2025": 22.7
+        },
+        "set": 10
+    },
+    {
+        "id": "p247",
+        "name": "Vihaan Sharma",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 32,
+            "wickets": 2,
+            "avg": 23.4
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 630,
+            "2024": 236,
+            "2025": 21.8
+        },
+        "set": 10
+    },
+    {
+        "id": "p132",
+        "name": "Dhruv Nair",
+        "role": "All-Rounder",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 48,
+            "wickets": 14,
+            "avg": 21.6
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 729,
+            "2024": 157,
+            "2025": 21.4
+        },
+        "set": 10
+    },
+    {
+        "id": "p153",
+        "name": "Pranav Mishra",
+        "role": "Batsman",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 205,
+            "wickets": 2,
+            "avg": 29.3
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1393,
+            "2024": 171,
+            "2025": 20.1
+        },
+        "set": 10
+    },
+    {
+        "id": "p185",
+        "name": "Ishaan Verma",
+        "role": "Wicket Keeper",
+        "basePrice": 20,
+        "stats": {
+            "ipl_runs": 93,
+            "wickets": 19,
+            "avg": 25.9
+        },
+        "country": "IND",
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+        "fantasy_points": {
+            "overall": 1920,
+            "2024": 151,
+            "2025": 20.1
+        },
+        "set": 10
+    }
+]
