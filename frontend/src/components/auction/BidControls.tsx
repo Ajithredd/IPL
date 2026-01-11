@@ -6,16 +6,20 @@ interface BidControlsProps {
     onBid: (amount: number) => void;
     isDisabled: boolean;
     budget?: number; // Team's remaining budget in Lakhs
+    currentBidder?: string | null;
 }
 
-export const BidControls = ({ currentBid, onBid, isDisabled, budget }: BidControlsProps) => {
+export const BidControls = ({ currentBid, onBid, isDisabled, budget, currentBidder }: BidControlsProps) => {
     // Dynamic Bid Logic
     // < 2 Cr (200L): +10L
     // 2 Cr - 5 Cr (200-500L): +25L
     // > 5 Cr (500L): +50L
 
     let increment = 10;
-    if (currentBid >= 500) {
+
+    if (!currentBidder) {
+        increment = 0;
+    } else if (currentBid >= 500) {
         increment = 50;
     } else if (currentBid >= 200) {
         increment = 25;
@@ -34,8 +38,8 @@ export const BidControls = ({ currentBid, onBid, isDisabled, budget }: BidContro
                 variant={isButtonDisabled ? 'secondary' : 'primary'}
                 data-testid={`btn-bid-${increment}`}
             >
-                <span className="text-xs opacity-80 font-medium">RAISE BID</span>
-                <span className="text-3xl font-black">+ {increment} Lakhs</span>
+                <span className="text-xs opacity-80 font-medium">{!currentBidder ? 'BID BASE PRICE' : 'RAISE BID'}</span>
+                <span className="text-3xl font-black">{!currentBidder ? 'Base Price' : `+ ${increment} Lakhs`}</span>
                 <span className="text-xs opacity-60 mt-1">Total: ₹ {nextBid}L</span>
             </Button>
 

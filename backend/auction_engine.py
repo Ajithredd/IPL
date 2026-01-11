@@ -92,8 +92,13 @@ class AuctionEngine:
                  return False, "Insufficient budget"
         
         # Basic validation
-        if amount <= self.current_bid:
-            return False, "Bid must be higher than current price"
+        # Basic validation
+        if self.current_bidder:
+            if amount <= self.current_bid:
+                return False, "Bid must be higher than current price"
+        else:
+            if amount < self.current_bid:
+                return False, "Bid must be at least base price"
         
         self.current_bid = amount
         self.current_bidder = {'userId': user_id, 'teamId': team_id}

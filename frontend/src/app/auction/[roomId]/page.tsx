@@ -316,6 +316,7 @@ export default function AuctionPage() {
                             onBid={handleBid}
                             isDisabled={isMyTurn || saleStatus !== null || isPaused}
                             budget={myStats?.budget}
+                            currentBidder={currentBidder}
                         />
                         {isMyTurn && (
                             <p className="text-center text-green-600 text-sm font-bold mt-3 animate-pulse">
