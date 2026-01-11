@@ -47,8 +47,8 @@ export default function LobbyPage() {
     if (!room || room.id !== currentRoomId) {
         return (
             <div className="flex flex-col items-center justify-center space-y-4">
-                <h2 className="text-2xl font-bold text-slate-700">Room not found (or lost state)</h2>
-                <p className="text-slate-500">Since this is a mock without backend, refreshing loses context unless we reconnect.</p>
+                <h2 className="text-2xl font-bold text-slate-700 dark:text-slate-200">Room not found (or lost state)</h2>
+                <p className="text-slate-500 dark:text-slate-400">Since this is a mock without backend, refreshing loses context unless we reconnect.</p>
                 <Button onClick={() => router.push('/join')}>Join Again</Button>
             </div>
         );
@@ -68,9 +68,9 @@ export default function LobbyPage() {
                         <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider">
                             {room.status}
                         </span>
-                        <h1 className="text-3xl font-bold text-slate-800">{room.name}</h1>
+                        <h1 className="text-3xl font-bold text-slate-800 dark:text-white">{room.name}</h1>
                     </div>
-                    <div className="flex gap-4 text-slate-600 text-sm">
+                    <div className="flex gap-4 text-slate-600 dark:text-slate-400 text-sm">
                         <div className="flex items-center gap-1">
                             <Users className="w-4 h-4" /> {room.totalTeams} Max Teams
                         </div>
@@ -82,7 +82,7 @@ export default function LobbyPage() {
 
                 <Card className="flex items-center gap-4 bg-ipl-gold/10 border-ipl-gold/30 p-4 min-w-[200px]">
                     <div className="text-center w-full">
-                        <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">Room Code</p>
+                        <p className="text-xs text-slate-500 dark:text-slate-400 uppercase font-bold tracking-wider mb-1">Room Code</p>
                         <div className="flex items-center justify-center gap-2 cursor-pointer hover:opacity-75" onClick={copyCode} title="Click to Copy">
                             <span className="text-3xl font-mono font-bold text-ipl-blue tracking-widest">{room.id}</span>
                             <Copy className="w-4 h-4 text-slate-400" />
@@ -97,7 +97,7 @@ export default function LobbyPage() {
                 {/* Player List */}
                 <div className="md:col-span-2 space-y-4">
                     <div className="flex justify-between items-center">
-                        <h2 className="text-xl font-bold text-slate-700 flex items-center gap-2">
+                        <h2 className="text-xl font-bold text-slate-700 dark:text-slate-200 flex items-center gap-2">
                             <Shield className="w-5 h-5 text-ipl-blue" />
                             Joined Teams ({room.users.length})
                         </h2>
@@ -107,7 +107,7 @@ export default function LobbyPage() {
                         {room.users.map((u) => {
                             const teamInfo = IPL_TEAMS.find(t => t.id === u.teamId);
                             return (
-                                <div key={u.id} className="flex items-center justify-between p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
+                                <div key={u.id} className="flex items-center justify-between p-4 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
                                     <div className="flex items-center gap-3">
                                         <div
                                             className={`w-12 h-12 rounded-full flex items-center justify-center font-bold text-sm shadow-sm`}
@@ -119,7 +119,7 @@ export default function LobbyPage() {
                                             {u.teamId || u.name.charAt(0).toUpperCase()}
                                         </div>
                                         <div>
-                                            <p className="font-semibold text-slate-800">{u.name}</p>
+                                            <p className="font-semibold text-slate-800 dark:text-white">{u.name}</p>
                                             <div className="flex items-center gap-2">
                                                 {u.isHost && <span className="text-xs bg-ipl-gold/20 text-yellow-700 px-1.5 py-0.5 rounded font-bold">HOST</span>}
                                                 {teamInfo && <span className="text-xs text-slate-500">{teamInfo.name}</span>}
@@ -135,10 +135,10 @@ export default function LobbyPage() {
 
                         {/* Empty Slots */}
                         {Array.from({ length: Math.max(0, room.totalTeams - room.users.length) }).map((_, i) => (
-                            <div key={`empty-${i}`} className="flex items-center justify-between p-4 bg-slate-50 rounded-lg border border-dashed border-slate-300">
+                            <div key={`empty-${i}`} className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-800/50 rounded-lg border border-dashed border-slate-300 dark:border-slate-600">
                                 <div className="flex items-center gap-3 opacity-50">
                                     <div className="w-10 h-10 rounded-full bg-slate-200" />
-                                    <p className="font-medium text-slate-400">Waiting for player...</p>
+                                    <p className="font-medium text-slate-400 dark:text-slate-500">Waiting for player...</p>
                                 </div>
                             </div>
                         ))}

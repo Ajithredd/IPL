@@ -74,7 +74,7 @@ export default function AuctionPage() {
             setSaleStatus('SOLD');
             setLastSoldPlayer(data.player);
             // Use Shortform for Log
-            setLogs(prev => [`SOLD: ${data.player.name} to ${data.winner.teamId} for ₹${data.amount}L`, ...prev]);
+            setLogs(prev => [`SOLD: ${data.player.name} to ${data.winner?.teamId || 'Unknown'} for ₹${data.amount}L`, ...prev]);
 
             // Update my stats if I am in the game
             if (user?.teamId && data.teamStats[user.teamId]) {

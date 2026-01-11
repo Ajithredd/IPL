@@ -29,7 +29,7 @@ app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
 # Handle CORS
 cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000').split(',')
 CORS(app, resources={r"/*": {"origins": cors_origins}})
-socketio = SocketIO(app, cors_allowed_origins=cors_origins, async_mode='eventlet')
+socketio = SocketIO(app, cors_allowed_origins=cors_origins, async_mode='threading')
 
 db.init_app(app)
 
@@ -75,61 +75,87 @@ def handle_disconnect():
 
 @socketio.on('create_room')
 def on_create_room(data):
-    room_code = generate_room_code()
-    # Simple conflict check
-    while Room.query.get(room_code):
+    try:
+        print(f"[CREATE_ROOM] Received: {data}", flush=True)
         room_code = generate_room_code()
+        # Simple conflict check
+        while Room.query.get(room_code):
+            room_code = generate_room_code()
 
-    # Create Room DB Entry
-    new_room = Room(
-        id=room_code,
-        name=data['roomName'],
-        status='LOBBY',
-        budget_per_team=data['budgetPerTeam'],
-        squad_size=data['squadSize'],
-        playing_squad_size=data.get('playingSquadSize', 11),
-        result_metric=data.get('resultMetric', 'overall'),
-        total_teams=data['totalTeams']
-    )
-    db.session.add(new_room)
-    
-    # Create Host User
-    host_user = User(
-        id=request.sid,
-        name=data['userName'],
-        room_id=room_code,
-        team_id=data['userTeamId'],
-        is_host=True
-    )
-    db.session.add(host_user)
-    
-    # Initialize basic team state for the host's team
-    if data['userTeamId']:
-        ts = TeamState(
-            room_id=room_code, 
-            team_id=data['userTeamId'], 
-            budget=data['budgetPerTeam'] * 100
+        print(f"[CREATE_ROOM] Generated room code: {room_code}", flush=True)
+
+        # Create Room DB Entry
+        new_room = Room(
+            id=room_code,
+            name=data['roomName'],
+            status='LOBBY',
+            budget_per_team=data['budgetPerTeam'],
+            squad_size=data['squadSize'],
+            playing_squad_size=data.get('playingSquadSize', 11),
+            result_metric=data.get('resultMetric', 'overall'),
+            total_teams=data['totalTeams']
         )
-        db.session.add(ts)
+        db.session.add(new_room)
+        
+        print(f"[CREATE_ROOM] Room object created", flush=True)
+        
+        # Create Host User
+        # Check if user already exists
+        host_user = User.query.get(request.sid)
+        if host_user:
+            # Update existing user
+            host_user.name = data['userName']
+            host_user.room_id = room_code
+            host_user.team_id = data['userTeamId']
+            host_user.is_host = True
+        else:
+            # Create new user
+            host_user = User(
+                id=request.sid,
+                name=data['userName'],
+                room_id=room_code,
+                team_id=data['userTeamId'],
+                is_host=True
+            )
+            db.session.add(host_user)
+        
+        print(f"[CREATE_ROOM] User object created", flush=True)
+        
+        # Initialize basic team state for the host's team
+        if data['userTeamId']:
+            ts = TeamState(
+                room_id=room_code, 
+                team_id=data['userTeamId'], 
+                budget=data['budgetPerTeam'] * 100
+            )
+            db.session.add(ts)
 
-    db.session.commit()
-    
-    # Initialize Engine (In-memory for active loop)
-    # Ideally Engine should also verify DB state on init
-    auction_engines[room_code] = AuctionEngine(room_code, new_room.to_dict(), socketio, app) # Pass app context
+        db.session.commit()
+        print(f"[CREATE_ROOM] Database committed", flush=True)
+        
+        # Initialize Engine (In-memory for active loop)
+        # Ideally Engine should also verify DB state on init
+        auction_engines[room_code] = AuctionEngine(room_code, new_room.to_dict(), socketio, app) # Pass app context
 
-    join_room(room_code)
-    
-    # Store connection info for Host
-    connected_users[request.sid] = {
-        'room_id': room_code, 
-        'user_name': data['userName'], 
-        'team_id': data['userTeamId']
-    }
-    
-    print(f"Room {room_code} created by {data['userName']}", flush=True)
-    room_dict = new_room.to_dict()
-    emit('room_joined', room_dict)
+        join_room(room_code)
+        
+        # Store connection info for Host
+        connected_users[request.sid] = {
+            'room_id': room_code, 
+            'user_name': data['userName'], 
+            'team_id': data['userTeamId']
+        }
+        
+        print(f"Room {room_code} created by {data['userName']}", flush=True)
+        room_dict = new_room.to_dict()
+        print(f"[CREATE_ROOM] Emitting room_joined: {room_dict}", flush=True)
+        emit('room_joined', room_dict)
+        print(f"[CREATE_ROOM] Emit complete", flush=True)
+    except Exception as e:
+        print(f"[CREATE_ROOM] ERROR: {e}", flush=True)
+        import traceback
+        traceback.print_exc()
+        emit('error', str(e))
 
 @socketio.on('join_room')
 def on_join_room(data):
@@ -143,15 +169,21 @@ def on_join_room(data):
         return
 
     # Check if user exists (simple session update logic or new user)
-    # For MVP, we just create a new User entry for the socket ID
-    new_user = User(
-        id=request.sid,
-        name=user_name,
-        room_id=room_id,
-        team_id=team_id,
-        is_host=False
-    )
-    db.session.add(new_user)
+    existing_user = User.query.get(request.sid)
+    if existing_user:
+        existing_user.name = user_name
+        existing_user.room_id = room_id
+        existing_user.team_id = team_id
+        existing_user.is_host = False
+    else:
+        new_user = User(
+            id=request.sid,
+            name=user_name,
+            room_id=room_id,
+            team_id=team_id,
+            is_host=False
+        )
+        db.session.add(new_user)
     
     # Store connection info for tracking
     connected_users[request.sid] = {
@@ -254,7 +286,10 @@ def on_timer_ended(data):
         # Check if there is a bidder
         if engine.current_bidder:
             result = engine.sell_current_player()
-            emit('player_sold', result, to=room_id)
+            if result.get('status') == 'UNSOLD':
+                emit('player_unsold', result, to=room_id)
+            else:
+                emit('player_sold', result, to=room_id)
         else:
             result = engine.pass_unsold_player()
             emit('player_unsold', result, to=room_id)

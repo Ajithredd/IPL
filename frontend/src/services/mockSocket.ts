@@ -8,8 +8,7 @@ const SOCKET_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
 export const socket: Socket<ServerToClientEvents, ClientToServerEvents> = io(SOCKET_URL, {
     transports: ['websocket', 'polling'],
     autoConnect: true,
-    reconnection: true,
-    withCredentials: true
+    reconnection: true
 });
 
 socket.on('connect', () => {

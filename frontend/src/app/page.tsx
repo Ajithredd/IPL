@@ -15,19 +15,19 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold text-ipl-blue tracking-tight">
           Common Man's <span className="text-ipl-gold">Mega Auction</span>
         </h1>
-        <p className="text-xl text-slate-600">
+        <p className="text-xl text-slate-600 dark:text-slate-300">
           Experience the thrill of the auction table. Create a room, invite friends, and build your dream team in real-time.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-3xl">
         <Card className="flex flex-col items-center text-center space-y-4 hover:shadow-xl transition-shadow border-t-4 border-t-ipl-blue">
-          <div className="bg-blue-50 p-4 rounded-full">
+          <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-full">
             <PlusCircle className="w-10 h-10 text-ipl-blue" />
           </div>
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold text-slate-800">Create a Room</h2>
-            <p className="text-slate-500">Host your own auction, set the rules, and become the auctioneer.</p>
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Create a Room</h2>
+            <p className="text-slate-500 dark:text-slate-400">Host your own auction, set the rules, and become the auctioneer.</p>
           </div>
           <Link href="/create" className="w-full">
             <Button className="w-full" size="lg">Start New Auction</Button>
@@ -35,12 +35,12 @@ export default function Home() {
         </Card>
 
         <Card className="flex flex-col items-center text-center space-y-4 hover:shadow-xl transition-shadow border-t-4 border-t-ipl-gold">
-          <div className="bg-yellow-50 p-4 rounded-full">
+          <div className="bg-yellow-50 dark:bg-yellow-900/30 p-4 rounded-full">
             <LogIn className="w-10 h-10 text-ipl-gold" />
           </div>
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold text-slate-800">Join a Room</h2>
-            <p className="text-slate-500">Enter a room code to join an existing lobby and start bidding.</p>
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Join a Room</h2>
+            <p className="text-slate-500 dark:text-slate-400">Enter a room code to join an existing lobby and start bidding.</p>
           </div>
           <Link href="/join" className="w-full">
             <Button variant="secondary" className="w-full" size="lg">Join Auction</Button>

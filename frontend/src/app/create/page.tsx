@@ -69,14 +69,14 @@ export default function CreateRoomPage() {
 
     return (
         <div className="max-w-xl mx-auto w-full">
-            <Link href="/" className="flex items-center text-slate-500 hover:text-ipl-blue mb-6 transition-colors">
+            <Link href="/" className="flex items-center text-slate-500 dark:text-slate-400 hover:text-ipl-blue mb-6 transition-colors">
                 <ArrowLeft className="w-4 h-4 mr-1" /> Back to Home
             </Link>
 
             <Card>
                 <div className="mb-6">
                     <h1 className="text-2xl font-bold text-ipl-blue">Create Auction Room</h1>
-                    <p className="text-slate-500">Configure your auction settings</p>
+                    <p className="text-slate-500 dark:text-slate-400">Configure your auction settings</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -131,7 +131,7 @@ export default function CreateRoomPage() {
                                 name="squadSize"
                                 value={formData.squadSize}
                                 onChange={handleChange}
-                                className="w-full px-4 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white"
+                                className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white dark:bg-slate-700 dark:text-white"
                                 data-testid="select-squad-size"
                             >
                                 {SQUAD_SIZES.map(size => (
@@ -152,7 +152,7 @@ export default function CreateRoomPage() {
                                     name="playingSquadSize"
                                     value={formData.playingSquadSize}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white"
+                                    className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white dark:bg-slate-700 dark:text-white"
                                 >
                                     {[5, 7, 9, 11].map(size => (
                                         <option key={size} value={size}>{size} Players</option>
@@ -170,7 +170,7 @@ export default function CreateRoomPage() {
                                     name="resultMetric"
                                     value={formData.resultMetric}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white"
+                                    className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 focus:outline-none focus:ring-2 focus:ring-ipl-blue focus:border-transparent appearance-none bg-white dark:bg-slate-700 dark:text-white"
                                 >
                                     <option value="overall">Overall IPL</option>
                                     <option value="2024">IPL 2024</option>
