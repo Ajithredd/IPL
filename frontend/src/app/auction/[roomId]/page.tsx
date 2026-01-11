@@ -211,10 +211,10 @@ export default function AuctionPage() {
 
     if (!currentPlayer && !isEnded) {
         return (
-            <div className="flex h-screen items-center justify-center bg-slate-50">
+            <div className="flex h-screen items-center justify-center bg-slate-50 dark:bg-slate-900">
                 <div className="text-center">
                     <h1 className="text-2xl font-bold text-ipl-blue mb-2">Waiting for next player...</h1>
-                    <p className="text-slate-500">The auctioneer is shuffling the deck.</p>
+                    <p className="text-slate-500 dark:text-slate-400">The auctioneer is shuffling the deck.</p>
                 </div>
             </div>
         );
@@ -238,8 +238,8 @@ export default function AuctionPage() {
     }
 
     return (
-        <div className="min-h-screen bg-slate-50 p-4 pb-20">
-            <Link href={`/lobby/${roomId}`} className="flex items-center text-slate-500 hover:text-ipl-blue mb-4 transition-colors">
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-20">
+            <Link href={`/lobby/${roomId}`} className="flex items-center text-slate-500 dark:text-slate-400 hover:text-ipl-blue mb-4 transition-colors">
                 <ArrowLeft className="w-4 h-4 mr-1" /> Back to Lobby
             </Link>
 
@@ -249,7 +249,7 @@ export default function AuctionPage() {
                 <div className="lg:col-span-3 space-y-6">
                     {/* Header */}
                     <div className="flex justify-between items-center">
-                        <h1 className="text-xl font-bold text-slate-800">
+                        <h1 className="text-xl font-bold text-slate-800 dark:text-white">
                             Room: <span className="font-mono text-ipl-blue">{roomId}</span>
                         </h1>
                         {/* Host Controls */}
@@ -309,12 +309,13 @@ export default function AuctionPage() {
                     </div>
 
                     {/* Controls */}
-                    <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-                        <h3 className="text-sm font-bold text-slate-400 uppercase mb-4">Place Your Bid</h3>
+                    <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+                        <h3 className="text-sm font-bold text-slate-400 dark:text-slate-500 uppercase mb-4">Place Your Bid</h3>
                         <BidControls
                             currentBid={currentBid}
                             onBid={handleBid}
                             isDisabled={isMyTurn || saleStatus !== null || isPaused}
+                            budget={myStats?.budget}
                         />
                         {isMyTurn && (
                             <p className="text-center text-green-600 text-sm font-bold mt-3 animate-pulse">
@@ -324,13 +325,13 @@ export default function AuctionPage() {
                     </div>
 
                     {/* Feed */}
-                    <div className="bg-slate-100 p-4 rounded-xl h-48 overflow-y-auto">
-                        <h3 className="flex items-center text-xs font-bold text-slate-500 uppercase mb-3 sticky top-0 bg-slate-100 py-1">
+                    <div className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl h-48 overflow-y-auto">
+                        <h3 className="flex items-center text-xs font-bold text-slate-500 dark:text-slate-400 uppercase mb-3 sticky top-0 bg-slate-100 dark:bg-slate-800 py-1">
                             <History className="w-3 h-3 mr-1" /> Activity Log
                         </h3>
                         <ul className="space-y-2">
                             {logs.map((log, i) => (
-                                <li key={i} className="text-sm text-slate-600 border-l-2 border-ipl-blue pl-2">
+                                <li key={i} className="text-sm text-slate-600 dark:text-slate-300 border-l-2 border-ipl-blue pl-2">
                                     {log}
                                 </li>
                             ))}
