@@ -32,7 +32,7 @@ app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
 # Handle CORS
 cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000').split(',')
 CORS(app, resources={r"/*": {"origins": cors_origins}})
-socketio = SocketIO(app, cors_allowed_origins=cors_origins, async_mode='threading')
+socketio = SocketIO(app, cors_allowed_origins=cors_origins)
 
 db.init_app(app)
 
@@ -482,6 +482,6 @@ def on_leave_room():
     pass
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000)
+    socketio.run(app, debug=False, port=5000)
 
 
