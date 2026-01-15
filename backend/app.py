@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 from .auction_engine import AuctionEngine
 from .models import db, Room, User, TeamState
 from .points_calculator import calculate_team_points
+from sqlalchemy import text, inspect
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'secret!')
@@ -39,6 +40,25 @@ db.init_app(app)
 
 with app.app_context():
     db.create_all()
+    
+    # Migration: Check for last_active column
+    def migrate_db():
+        try:
+            inspector = inspect(db.engine)
+            columns = [c['name'] for c in inspector.get_columns('room')]
+            if 'last_active' not in columns:
+                print("[Migration] Adding last_active column to room table...")
+                with db.engine.connect() as conn:
+                    # SQLite and Postgres support ADD COLUMN
+                    conn.execute(text("ALTER TABLE room ADD COLUMN last_active TIMESTAMP"))
+                    conn.commit()
+                print("[Migration] Column added successfully.")
+            else:
+                print("[Migration] Schema is up to date.")
+        except Exception as e:
+            print(f"[Migration] Error: {e}")
+
+    migrate_db()
 
 # Global dictionary to store active auction engines
 auction_engines = {}
