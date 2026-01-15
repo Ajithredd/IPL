@@ -39,12 +39,21 @@ export interface Player {
     '2024': number;
     '2025': number;
   };
+  soldPrice?: number;
 }
 
 export interface BidUpdate {
   amount: number;
   teamId: string;
   bidderName: string;
+}
+
+export interface ChatMessage {
+  id: string;
+  sender: string;
+  message: string;
+  teamId?: string;
+  timestamp: number;
 }
 
 export interface ClientToServerEvents {
@@ -69,6 +78,7 @@ export interface ClientToServerEvents {
   end_auction: (data: { roomId: string }) => void;
   submit_squad: (data: { roomId: string; teamId: string; playerIds: string[] }) => void;
   get_points_table: (data: { roomId: string }) => void;
+  chat_message: (data: { roomId: string; message: string; sender: string; teamId?: string }) => void;
 }
 
 export interface SaleResult {
@@ -90,10 +100,19 @@ export interface ServerToClientEvents {
   bid_update: (data: BidUpdate) => void;
   player_sold: (data: SaleResult) => void;
   player_unsold: (data: UnsoldResult) => void;
-  auction_state: (state: any) => void;
+  auction_state: (state: {
+    currentPlayer: Player | null;
+    currentBid: number;
+    currentBidder: { userId: string; teamId: string } | null;
+    state: 'WAITING' | 'ACTIVE' | 'SOLD' | 'UNSOLD' | 'PAUSED' | 'ENDED';
+    timer: number;
+    teamStats: Record<string, { budget: number; squad: Player[] }>;
+    upcomingPlayers: Player[];
+  }) => void;
   error: (message: string) => void;
   auction_paused: (data: any) => void;
   auction_resumed: (data: any) => void;
   auction_ended: (data: any) => void;
   points_table_update: (data: { teamId: string; points: number }[]) => void;
+  chat_message: (data: ChatMessage) => void;
 }

@@ -9,6 +9,7 @@ import string
 import os
 import json
 import logging
+from datetime import datetime, timedelta
 from .auction_engine import AuctionEngine
 from .models import db, Room, User, TeamState
 from .points_calculator import calculate_team_points
@@ -16,7 +17,7 @@ from .points_calculator import calculate_team_points
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'secret!')
 
-database_url = os.environ.get('DATABASE_URL', 'sqlite:///auction.db')
+database_url = os.environ.get('DATABASE_URL', 'sqlite:///auction_v2.db')
 if database_url and database_url.startswith("postgres://"):
     database_url = database_url.replace("postgres://", "postgresql://", 1)
 
@@ -44,6 +45,55 @@ auction_engines = {}
 
 connected_users = {} 
 room_post_auction_data = {} # { room_id: { team_id: { points: 0, squad: [] } } } 
+
+def update_room_activity(room_id):
+    try:
+        room = Room.query.get(room_id)
+        if room:
+            room.last_active = datetime.utcnow()
+            db.session.commit()
+    except Exception as e:
+        print(f"Error updating activity: {e}")
+
+def cleanup_rooms():
+    """Background task to remove inactive rooms"""
+    while True:
+        socketio.sleep(60) # Check every minute
+        try:
+            with app.app_context():
+                # Timeout: 5 minutes
+                threshold = datetime.utcnow() - timedelta(minutes=5)
+                
+                # Find inactive rooms (either ENDED or just inactive)
+                # Logic: If status is ENDED, delete after 5 mins.
+                # If status is not ENDED but inactive for 5 mins, also delete (abandoned).
+                
+                rooms_to_delete = Room.query.filter(Room.last_active < threshold).all()
+                
+                for room in rooms_to_delete:
+                    print(f"[Cleanup] Deleting inactive room: {room.id} (Status: {room.status})")
+                    
+                    # Delete related data
+                    TeamState.query.filter_by(room_id=room.id).delete()
+                    User.query.filter_by(room_id=room.id).delete()
+                    
+                    # Remove from memory
+                    if room.id in auction_engines:
+                        del auction_engines[room.id]
+                    if room.id in room_post_auction_data:
+                        del room_post_auction_data[room.id]
+                        
+                    db.session.delete(room)
+                
+                if rooms_to_delete:
+                    db.session.commit()
+                    print(f"[Cleanup] Deleted {len(rooms_to_delete)} rooms.")
+                    
+        except Exception as e:
+            print(f"[Cleanup] Error: {e}")
+
+# Start background task
+socketio.start_background_task(cleanup_rooms) 
 
 def generate_room_code():
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
@@ -154,6 +204,9 @@ def on_create_room(data):
         print(f"[CREATE_ROOM] Emitting room_joined: {room_dict}", flush=True)
         emit('room_joined', room_dict)
         print(f"[CREATE_ROOM] Emit complete", flush=True)
+        
+        # Update Activity
+        update_room_activity(room_code)
     except Exception as e:
         print(f"[CREATE_ROOM] ERROR: {e}", flush=True)
         import traceback
@@ -214,6 +267,8 @@ def on_join_room(data):
     room_dict = room.to_dict()
     emit('room_joined', room_dict, to=request.sid) 
     emit('room_updated', room_dict, to=room_id, include_self=False)
+    
+    update_room_activity(room_id)
 
 @socketio.on('start_auction')
 def on_start_auction(room_id):
@@ -243,6 +298,7 @@ def on_start_auction(room_id):
                 print(f"[App] No players returned from engine!")
         
         print(f"Auction started in room {room_id}")
+        update_room_activity(room_id)
 
 @socketio.on('place_bid')
 def on_place_bid(data):
@@ -270,6 +326,7 @@ def on_place_bid(data):
                 'teamId': user.team_id,
                 'bidderName': user.name
             }, to=room_id)
+            update_room_activity(room_id)
         else:
             emit('error', message, to=request.sid)
 
@@ -321,7 +378,7 @@ def on_get_auction_state(data):
     if room_id in auction_engines:
         engine = auction_engines[room_id]
         state = engine.get_state()
-        print(f"[App] Sending state: Current Player={state.get('currentPlayer', {}).get('name')}")
+        print(f"[App] Sending state: Current Player={(state.get('currentPlayer') or {}).get('name')}")
         emit('auction_state', state, to=request.sid)
 
 @socketio.on('pause_auction')
@@ -376,6 +433,7 @@ def on_end_auction(data):
             emit('room_updated', room.to_dict(), to=room_id)
             
         emit('auction_ended', {}, to=room_id)
+        update_room_activity(room_id)
 
 @socketio.on('submit_squad')
 def on_submit_squad(data):
@@ -436,6 +494,14 @@ def emit_points_table(room_id):
 def on_get_points_table(data):
     room_id = data['roomId']
     emit_points_table(room_id)
+
+@socketio.on('chat_message')
+def on_chat_message(data):
+    # data: { roomId, message, sender, teamId }
+    room_id = data.get('roomId')
+    if room_id:
+        emit('chat_message', data, to=room_id)
+        update_room_activity(room_id)
 
 @socketio.on('disconnect')
 def on_disconnect(*args):

@@ -17,10 +17,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0B1120; /* Darker, richer blue-black */
-    --foreground: #E2E8F0; /* Softer white for text */
-    --color-ipl-blue: #3B82F6; /* Brighter blue for dark mode contrast */
-    --color-ipl-light: #1E293B; /* Darker 'light' shade for cards */
+    --background: #0B1120;
+    /* Darker, richer blue-black */
+    --foreground: #E2E8F0;
+    /* Softer white for text */
+    --color-ipl-blue: #3B82F6;
+    /* Brighter blue for dark mode contrast */
+    --color-ipl-light: #1E293B;
+    /* Darker 'light' shade for cards */
     color-scheme: dark;
   }
 }
@@ -29,4 +33,31 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #475569;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #64748b;
 }

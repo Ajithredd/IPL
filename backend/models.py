@@ -16,6 +16,7 @@ class Room(db.Model):
     playing_squad_size = db.Column(db.Integer, default=11)
     result_metric = db.Column(db.String(20), default='overall') # overall, 2024, 2025
     total_teams = db.Column(db.Integer, default=10)
+    last_active = db.Column(db.DateTime, default=db.func.now())
     
     # Relationships
     users = db.relationship('User', backref='room', lazy=True)

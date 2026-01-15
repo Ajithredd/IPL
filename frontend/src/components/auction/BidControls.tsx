@@ -7,9 +7,12 @@ interface BidControlsProps {
     isDisabled: boolean;
     budget?: number; // Team's remaining budget in Lakhs
     currentBidder?: string | null;
+    isSquadFull?: boolean;
+    squadCount?: number;
+    totalSquadSize?: number;
 }
 
-export const BidControls = ({ currentBid, onBid, isDisabled, budget, currentBidder }: BidControlsProps) => {
+export const BidControls = ({ currentBid, onBid, isDisabled, budget, currentBidder, isSquadFull, squadCount = 0, totalSquadSize = 25 }: BidControlsProps) => {
     // Dynamic Bid Logic
     // < 2 Cr (200L): +10L
     // 2 Cr - 5 Cr (200-500L): +25L
@@ -27,14 +30,14 @@ export const BidControls = ({ currentBid, onBid, isDisabled, budget, currentBidd
 
     const nextBid = currentBid + increment;
     const isBudgetInsufficient = budget !== undefined && budget < nextBid;
-    const isButtonDisabled = isDisabled || isBudgetInsufficient;
+    const isButtonDisabled = isDisabled || isBudgetInsufficient || isSquadFull;
 
     return (
         <div className="grid grid-cols-1 gap-3">
             <Button
                 onClick={() => onBid(nextBid)}
                 disabled={isButtonDisabled}
-                className="flex flex-col items-center py-6 h-auto transition-transform active:scale-95 w-full"
+                className="flex flex-col items-center py-3 md:py-6 h-auto transition-transform active:scale-95 w-full md:w-auto"
                 variant={isButtonDisabled ? 'secondary' : 'primary'}
                 data-testid={`btn-bid-${increment}`}
             >
@@ -47,6 +50,27 @@ export const BidControls = ({ currentBid, onBid, isDisabled, budget, currentBidd
                 <div className="flex items-center justify-center gap-2 text-red-500 dark:text-red-400 text-sm font-medium bg-red-50 dark:bg-red-900/20 p-2 rounded-lg">
                     <AlertCircle className="w-4 h-4" />
                     Budget Insufficient
+                </div>
+            )}
+
+            {isSquadFull && (
+                <div className="flex items-center justify-center gap-2 text-orange-500 dark:text-orange-400 text-sm font-medium bg-orange-50 dark:bg-orange-900/20 p-2 rounded-lg">
+                    <AlertCircle className="w-4 h-4" />
+                    Squad Full
+                </div>
+            )}
+
+            {/* Stats Display */}
+            {budget !== undefined && (
+                <div className="grid grid-cols-2 gap-2 mt-2">
+                    <div className="bg-slate-50 dark:bg-slate-900/50 p-2 rounded-lg text-center">
+                        <div className="text-[10px] text-slate-500 uppercase font-bold">Purse</div>
+                        <div className="text-sm font-black text-slate-800 dark:text-white">₹{(budget / 100).toFixed(2)} Cr</div>
+                    </div>
+                    <div className="bg-slate-50 dark:bg-slate-900/50 p-2 rounded-lg text-center">
+                        <div className="text-[10px] text-slate-500 uppercase font-bold">Squad</div>
+                        <div className="text-sm font-black text-slate-800 dark:text-white">{squadCount}/{totalSquadSize}</div>
+                    </div>
                 </div>
             )}
         </div>

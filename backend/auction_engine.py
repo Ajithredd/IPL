@@ -90,6 +90,13 @@ class AuctionEngine:
              ts = self.get_team_state(team_id)
              if amount > ts.budget:
                  return False, "Insufficient budget"
+             
+             # Check Max Players Constraint
+             # We need to know the room's max squad size.
+             # self.room_data has 'squadSize'
+             current_squad = json.loads(ts.squad_json)
+             if len(current_squad) >= self.room_data.get('squadSize', 25):
+                 return False, "Squad is full!"
         
         # Basic validation
         # Basic validation
@@ -209,5 +216,6 @@ class AuctionEngine:
             'currentBidder': self.current_bidder,
             'state': self.state,
             'timer': 30, # TODO: Sync timer properly
-            'teamStats': all_teams_dict
+            'teamStats': all_teams_dict,
+            'upcomingPlayers': self.unsold_players
         }
